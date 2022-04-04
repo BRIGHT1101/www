@@ -1,0 +1,154 @@
+#content .con_nav {
+  background-color: white;
+}
+
+#content img {
+  width: 100%;
+}
+
+#content .con_nav li a.activated {
+  box-shadow: -1px 1px 16px 0 rgba(0, 0, 0, 0.086);
+  background-color: white;
+  color: black;
+}
+
+#content .con_nav ul {
+  width: 91%;
+  margin: 30px auto 10px;
+}
+
+#content .con_nav ul img {
+  width: 80%;
+  margin: 15px auto;
+}
+
+#content .con_nav ul p {
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  width: 100%;
+  left: 0;
+  transform: translateY(-50%);
+  text-shadow: 0 0 20px rgb(255, 255, 255);
+  padding: 20px 0;
+  font-weight: bold;
+}
+
+#content .con_nav li {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+#content .con_nav li a {
+  color: #666;
+}
+
+
+#content .introduction h3 {
+  color: #ffa0ab;
+  font-weight: bold;
+  font-size: 1.3rem;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.295);
+}
+
+#content .introduction .intro_title {
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+}
+
+#content .introduction .intro_title p {
+  font-size: 2rem;
+  color: white;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.295);
+}
+
+#content .introduction .intro_title>div {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#content .introduction .feature {
+  margin: 4.5% 4.5% 40px;
+}
+
+#content .introduction .feature img {
+  display: block;
+  border-radius: 15px;
+}
+
+#content .introduction .feature p {
+  font-size: 1.3rem;
+  text-align: justify;
+  margin: 10px 4.5%;
+}
+
+#content .detail ul {
+  overflow: hidden;
+}
+
+#content .detail li {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+#content .detail li p {
+  font-size: 1.4rem;
+  color: black;
+  margin-bottom: 10px;
+}
+
+#content .detail_color div {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  margin: 0 5px;
+  box-shadow: 0 0 5px 0 rgb(0 0 0 / 47%);
+  opacity: .7;
+  background-color: red;
+}
+
+#content .recommend {
+  margin: 100px 0;
+  text-align: center;
+}
+
+#content .recommend h3 {
+  font-weight: bold;
+  color: black;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+#content .recommend h3 span {
+  background: linear-gradient(to top, #d2082031 40%, transparent 40%) 0 -3px;
+}
+
+#content .swiper-slide img {
+  display: block;
+  width: 40%;
+  margin: 0 auto;
+}
+
+#content .swiper-slide p:first-of-type {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: black;
+  margin-top: 15px;
+}
+
+
+#content .swiper-button-next {
+  color: rgba(0, 0, 0, 0.4)
+}
+
+#content .swiper-button-prev {
+  color: rgba(0, 0, 0, 0.4)
+}

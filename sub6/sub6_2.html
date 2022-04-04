@@ -1,0 +1,124 @@
+<?
+    session_start();
+    @extract($_POST);
+    @extract($_GET);
+    @extract($_SESSION);
+?>
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>고객지원 - 오시는 길</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub6common.css">
+    <link rel="stylesheet" href="css/sub6_content2.css">
+    <script src="../common/js/prefixfree.min.js"></script>
+</head>
+
+<body>
+    <? include "../common/sub_header.html" ?>
+    <div class="visual">
+        <img src="./common/images/visual.jpg" alt="visual">
+        <div>
+            <div>
+                <h3>고객지원</h3>
+                <span>Customer Center</span>
+            </div>
+        </div>
+    </div>
+    <div class="sub_menu">
+        <ul>
+            <li><a href="../greet/list.php">공지사항</a></li>
+            <li class="current"><a href="sub6_2.html">오시는 길</a></li>
+            <li><a href="sub6_3.html">고객상담</a></li>
+        </ul>
+    </div>
+    <article id="content">
+        <div class="title_area">
+            <div class="line_map">
+                <i class="fas fa-home"><span class="hidden">HOME</span></i> &gt; 고객지원 &gt; <strong>오시는 길</strong>
+            </div>
+            <h2>오시는 길</h2>
+        </div>
+        <div class="content_area">
+            <section class="head_office">
+                <div class="office_info info">
+                    <h3>본사</h3>
+                    <p>서울특별시 마포구 성암로 179 한샘빌딩 (03929)</p>
+                    <p><span>대표번호</span> 02-6908-3114 <span>고객센터</span> 1688-4945</p>
+                </div>
+                <div id="head" class="map"></div>
+                <div class="office_detail detail">
+                    <dl>
+                        <dt>버스로 오시는 길</dt>
+                        <dd>
+                            지선버스 <span>670, 6715</span>
+                        </dd>
+                        <dd>
+                            간선버스 <span>7013A, 7013B, 7737</span>
+                        </dd>
+                        <dd>
+                            마을버스 <span>마포18</span>
+                        </dd>
+                        <dd>
+                            공항철도 디지털미디어시티역 버스정류장 하차
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>지하철로 오시는 길</dt>
+                        <dd>6호선 <span>디지털미디어시티역</span> 2,3번출구 도보 20미터 앞</dd>
+                        <dd>공항철도 <span>디지털미디어시티역</span> 8번출구 도보 10미터 앞</dd>
+                    </dl>
+                    <dl>
+                        <dt>자동차로 오시는 길</dt>
+                        <dd>상암사거리에서 '디지털미디어시티' 방면으로 좌회전 → '성암로' 방면으로 우회전</dd>
+                    </dl>
+                </div>
+            </section>
+            <section class="design_office">
+                <div class="design_info info">
+                    <h3>디자인센터</h3>
+                    <p>서울특별시 종로구 창덕궁5길 22-8 한샘DBEW 디자인센터 (110-280)</p>
+                    <p><span>대표번호</span> 02-542-8558 <span>고객센터</span> 1588-0900</p>
+                </div>
+                <div id="design" class="map"></div>
+                <div class="design_detail detail">
+                    <dl>
+                        <dt>버스로 오시는 길</dt>
+                        <dd>
+                            지선버스 <span>741, 3315</span>
+                        </dd>
+                        <dd>
+                            간선버스 <span>841, 842, 860</span>
+                        </dd>
+                        <dd>
+                            마을버스 <span>종로01, 종로02</span>
+                        </dd>
+                        <dd>
+                            한샘디자인센터, 안국선원 삼거리 하차
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>지하철로 오시는 길</dt>
+                        <dd>3호선 <span>안국역</span> 2,3번출구 도보 15분</dd>
+                        <dd>5호선 <span>종로3가역</span> 7번출구 도보 20분</dd>
+                    </dl>
+                    <dl>
+                        <dt>자동차로 오시는 길</dt>
+                        <dd>안국역에서 '창덕궁길' 방면으로 우회전 → '창덕궁5길' 방면으로 좌회전</dd>
+                        <dd>종로3가역에서 '창덕궁' 방면으로 좌회전 → '창덕궁5길' 방면으로 우회전</dd>
+                    </dl>
+                </div>
+            </section>
+        </div>
+    </article>
+    <? include "../common/sub_footer.html" ?>
+    <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=da7f4f9781c846948ce7c50893641de9"></script>
+    <script src="js/sub6_content2.js"></script>
+</body>
+
+</html>

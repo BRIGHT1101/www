@@ -1,0 +1,51 @@
+<?
+    @extract($_POST);
+    @extract($_GET);
+    @extract($_SESSION);
+?>
+
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>회원가입완료</title>
+  <link rel="stylesheet" href="../css/common.css">
+  <link rel="stylesheet" href="./css/welcome.css">
+  <script src="../../common/js/jquery-1.12.4.min.js"></script>
+  <script src="../../common/js/jquery-migrate-1.4.1.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <script src="../js/prefixfree.min.js"></script>
+  <script>
+    // <![CDATA[
+    try {
+      window.addEventListener('load', function () {
+        setTimeout(scrollTo, 0, 0, 1);
+      }, false);
+    } catch (e) {}
+    // ]]>
+  </script>
+</head>
+
+<body>
+  <header>
+    <h1><a class="logo" href="../index.html"><img src="../../common/images/navlogo.png" alt="한샘로고"></a></h1>
+  </header>
+  <article id="content">
+    <i class="fas fa-check"></i>
+    <h2>회원가입이 <span>완료</span>되었습니다.</h2>
+    <div>
+      <p><span>
+          <? echo"$nick" ?></span>님의 회원가입을 축하합니다.</p>
+      <p>항상 고객님을 최우선으로 생각하는 한샘이 되겠습니다.</p>
+    </div>
+    <div>
+      <a href="../index.html">홈으로</a>
+      <a href="../login/login_form.php">로그인</a>
+    </div>
+  </article>
+</body>
+
+</html>

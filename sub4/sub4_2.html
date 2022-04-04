@@ -1,0 +1,129 @@
+<?
+    session_start();
+    @extract($_POST);
+    @extract($_GET);
+    @extract($_SESSION);
+?>
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>지속가능경영 - 고객감동경영</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub4common.css">
+    <link rel="stylesheet" href="css/sub4_content2.css">
+    <script src="../common/js/prefixfree.min.js"></script>
+</head>
+
+<body>
+    <? include "../common/sub_header.html" ?>
+    <div class="visual">
+        <img src="./common/images/visual.jpg
+            " alt="visual">
+        <div>
+            <div>
+                <h3>지속가능경영</h3>
+                <span>Sustainable Management</span>
+            </div>
+        </div>
+    </div>
+    <div class="sub_menu">
+        <ul>
+            <li><a href="sub4_1.html">환경경영</a></li>
+            <li class="current"><a href="sub4_2.html">고객감동경영</a></li>
+            <li><a href="sub4_3.html">가치경영</a></li>
+            <li><a href="sub4_4.html">R&D</a></li>
+        </ul>
+    </div>
+    <article id="content">
+        <div class="title_area">
+            <div class="line_map">
+                <i class="fas fa-home"><span class="hidden">HOME</span></i> &gt; 지속가능경영 &gt; <strong>고객감동경영</strong>
+            </div>
+            <h2>고객감동경영</h2>
+            <p>한샘의 과거 성장과 미래 혁신을 이어갈 원동력은 고객감동 경영입니다</p>
+        </div>
+        <div class="content_nav_outer">
+            <div class="content_nav_bar">
+                <ul>
+                    <li><a href="#" class="content_inner_menu1">안전약속</a></li>
+                    <li><a href="#" class="content_inner_menu2">품질약속</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="content_area">
+            <section id="client" class="section1">
+                <div>
+                    <h3 class="hidden">안전약속</h3>
+                </div>
+                <div class="clientinfo">
+                    <div>
+                        <p>고객의 불만의 목소리는 제품의 안전을 더욱 강화시키는 원동력이 되었습니다.</p>
+                        <p>이를 끊임없이 보완하고 서비스를 강화하며 고객에게 최상의 만족을 전하겠다는</p>
+                        <p>고객감동의 다짐은 한샘을 50년간 성장시켜 온 근간이기도 합니다.</p>
+                    </div>
+                    <div class="client_service">
+                        <div class="service_list">
+                        </div>
+                        <div>
+                            <h4>안전보건경영 성과 및 계획</h4>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>목표</th>
+                                        <th>2021년 성과</th>
+                                        <th>2022년 계획</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>안전사고 ZERO</td>
+                                        <td>사업장별 자율안전점검 체계 구축<br>사업장별 안전보건담당자의 안전의식 수준 향상</td>
+                                        <td>전문기관 컨설팅을 통한 사고 사전예방 실시<br>비상대응훈련을 통한 사고 대응능력 향상</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="promise" class="section2">
+                <h3 class="hidden">경영전략</h3>
+                <div>
+                </div>
+                <div class="promiseinfo">
+                    <div>
+                        <p>한샘은 철저한 품질 관리를 통해
+                            고객이 건강하고 안전하게 제품과 서비스를
+                            이용할 권리를 지키고 있습니다.</p>
+                        <p>한샘은 CQO (최고품질경영책임자) 주관으로 사내 품질 관리조직인 생활환경기술연구소,
+                            CS품질 혁신팀에서 분기별 품질과</p>
+                        <p>관련한 핵심성과 지표를 합의 및 설정하고
+                            제품과 서비스의 종합적인 품질을 관리하고있습니다.</p>
+                    </div>
+                    <div class="process">
+                        <h4>신제품 출시검증<br>프로세스</h4>
+                        <div class="process_list"></div>
+                    </div>
+                    <div class="six_sigma">
+                        <h4>식스시그마 경영</h4>
+                        <div>
+                            <img src="images/content2/sigma1.jpg" alt="시그마경영">
+                            <img src="images/content2/sigma2.jpg" alt="시그마경영">
+                            <p>한샘은 0.001%의 불량도 허용하지 않는 식스시그마 경영 전략을 기반으로 품질 혁신을 통한 고객만족을 추구합니다.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </article>
+    <? include "../common/sub_footer.html" ?>
+    <script src="common/sub4.js"></script>
+    <script src="js/sub4_content2.js"></script>
+</body>
+
+</html>

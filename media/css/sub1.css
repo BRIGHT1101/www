@@ -1,0 +1,479 @@
+/* 와이드 pc  */
+
+#content {
+   margin-top: 100vh;
+   position: relative;
+   background: linear-gradient(transparent,white 400px );
+}
+
+#wrap .visual {
+   position: fixed;
+   display: flex;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100vh;
+   background-image: url("../images/sub1/visual.jpg");
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   align-items: center;
+   justify-content: center;
+}
+
+
+#wrap .visual_text {
+   color: white;
+   display: none;
+}
+
+#wrap .visual_text h2 {
+   font-family: 'Nothing You Could Do', cursive;
+   font-size: 5.5vw;
+   font-weight: bold;
+   text-shadow: 0 0 30px rgba(0, 0, 0, 0.527);
+   text-align: center;
+}
+
+#wrap .visual_text p{
+   font-size: 1.5vw;
+   text-align: center;
+}
+
+#content .slogan {
+   padding-top: 150px;
+}
+
+#content section h3 {
+   text-align: center;
+   color: black;
+   font-size: 4.5vw;
+   font-weight: 900;
+}
+
+#content .slogan p, #content .human p {
+   font-size: 20px;
+   text-align: center;
+   width: 80%;
+   margin: 50px auto;
+   position: relative;
+}
+
+#content .slogan ul p {
+   font-weight: 300;
+   font-size: 16px;
+}
+
+#content .slogan p::before, #content .human p::before {
+   content: '';
+   width: 20%;
+   height: 3px;
+   background-color: #cf112d;
+   display: block;
+   position: relative;
+   top: -20px;
+   left: 50%;
+   transform: translateX(-50%);
+   transition: .2s ease-in-out width;
+}
+
+#content .slogan>p::before, #content .human>p::before {
+   top: -30px;
+   height: 4px;
+}
+
+
+#content .slogan>ul {
+   width: 90%;
+   margin: 80px auto 0;
+   display: flex;
+   justify-content: space-around;
+}
+
+#content .slogan li {
+   width: 30%;
+}
+
+#content .slogan li:hover p::before {
+   width: 60%;
+}
+
+#content .slogan img {
+   display: block;
+   width: 100%;
+}
+
+#content .design>div {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   width: 90%;
+   margin: 30px auto 0;
+}
+
+#content .design>div>div {
+   width: 48%;
+   height: 40vw;
+   margin:1%;
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   transition: .2s ease-in-out all;
+   filter: saturate(80%);
+}
+
+#content .design>div div {
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+#content .design>div>div .con_img {
+   width: 50%;
+   height: 100%;
+}
+
+#content .design .con3 {
+   align-items: flex-end;
+   text-align: end;
+}
+
+
+#content .design .con1 {
+   background-image: url(../images/sub1/con1.jpg);
+}
+
+#content .design>div>div:hover {
+   filter: saturate(140%);
+}
+
+#content .design .con1:hover{
+   box-shadow: 0 0 50px #e0f4e0;
+}
+
+#content .design .con4:hover {
+   box-shadow: 0 0 50px #d3575936;
+}
+
+#content .design .con2 .con_img {
+   background-image: url(../images/sub1/con3.jpg);
+}
+
+#content .design .con3 .con_img{
+   background-image: url(../images/sub1/con2.jpg);
+}
+
+#content .design .con4 {
+   background-image: url(../images/sub1/con4.jpg);
+}
+
+#content .design .con5 .con_img {
+   background-image: url(../images/sub1/con5.jpg);
+}
+
+#content .design .con6 .con_img {
+   background-image: url(../images/sub1/con6.jpg);
+}
+
+#content .design .con5,#content .design .con6 {
+   flex-direction: row;
+   height: 20vw;
+}
+
+#content .con_img_outer {
+   height: 50%;
+   display: flex;
+}
+
+#content .design {
+   margin: 150px 0 100px;
+}
+
+
+#content .design>div>div p:first-of-type {
+   font-weight: bold;
+   font-size: 2vw;
+   color: black;
+   margin: 20px 0 10px;
+}
+
+#content .design>div>div p:last-of-type {
+   font-size: 18px;
+   font-weight: 300;
+   margin-bottom: 10px;
+}
+
+#content .design>div .con2 p:last-of-type {
+   margin-bottom: 20px;
+}
+
+#content .design>div .con5 {
+   justify-content: flex-end;
+   align-items: flex-end;
+}
+
+#content .design>div .con5 span {
+   margin-right: 10px;
+}
+
+#content .design>div .con6 span {
+   margin-left: 10px;
+}
+#content .design>div .con6 {
+   justify-content: flex-start;
+   align-items: flex-end;
+}
+
+#content .human {
+   padding: 75px 0 100px;
+   background: linear-gradient(#ddd6f3,#faaca8);
+}
+
+#content .human ul {
+   display: flex;
+   width: 90%;
+   margin: 80px auto 0;
+   justify-content: space-around;
+}
+
+#content .human li {
+   width: 23%;
+   padding: 40px 40px 0 40px;
+   box-sizing: border-box;
+   transition: .2s ease-in-out all;
+}
+
+#content .human li img {
+   display: block;
+   width: 100%;
+   filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.24) ); 
+   transition: .2s ease-in-out all;
+}
+
+#content .human li:nth-of-type(1) img {
+   border-radius: 90% 100% 68% 100% / 100% 69% 90% 95%  ;
+}
+
+#content .human li:nth-of-type(2) img {
+   border-radius: 90% 92% 100% 55% / 74% 100% 56% 75%  ;
+}
+
+#content .human li:nth-of-type(3) img {
+   border-radius: 90% 100% 68% 100% / 100% 69% 90% 95%  ;
+}
+
+#content .human li:nth-of-type(4) img {
+   border-radius: 80% 100% 77% 100% / 100% 56% 100% 73%  ;
+}
+
+#content .human li:hover img {
+   border-radius: 100%;
+}
+
+#content .human li:hover  {
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.219);
+   background-color: rgba(255, 255, 255, 0.384);
+}
+
+#content .human li p span {
+   font-size: 18px;
+   font-weight: 300;
+   display: block;
+   margin-top: 10px;
+}
+
+#content .human li p {
+   font-size: 20px;
+   text-align: center;
+   font-weight: bold;
+   color: black;
+   width: auto;
+}
+
+#footerArea {
+   border-top: none;
+}
+
+
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+   #content .design .con2 .con_img,
+   #content .design .con3 .con_img {
+      display: none;
+   }
+
+   #content .design>div>div {
+      justify-content: center;
+   }
+
+   #content .human li {
+      width: 28%;
+   }
+
+   #content .human li:nth-of-type(4) {
+      display: none;
+   }
+
+}
+
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+   #content .slogan li:last-of-type {
+      display: none;
+   }
+
+   #content .slogan li {
+      width: 40%;
+   }
+
+   #content .design .con5,
+   #content .design .con6 {
+      display: none;
+   }
+
+   #content .design {
+      margin-top: 50px;
+   }
+
+   #content .human li:nth-of-type(3) {
+      display: none;
+   }
+   
+   #content .human li {
+      width: 38%;
+   }
+
+}
+
+
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+   #content .slogan p, #content .human p {
+      font-size: 16px;
+   }
+
+   #content section h3 {
+      font-size: 40px;
+   }
+
+   #content .design>div>div p:first-of-type {
+      font-size: 20px;
+   }
+
+   #content .design>div>div p:last-of-type {
+      display: none;
+   }
+
+   #content .design .con2 .con_img,
+   #content .design .con3 .con_img {
+      display: block;
+   }
+
+   #content .design .con5,
+   #content .design .con6 {
+      display: flex;
+   }
+
+   #content .human ul {
+      flex-wrap: wrap;
+   }
+
+   #content .human li {
+      width: 41%;
+   }
+
+   #content .human li:last-of-type {
+      display: block;
+   }
+
+   #content .human li p span {
+      display: none;
+   }
+
+   #content .human li:nth-of-type(3) {
+      display: block;
+   }
+}
+
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+   #content .slogan>ul {
+      flex-wrap: wrap;
+   }
+
+   #content .slogan li {
+      width: 80%;
+   }
+
+   #content .slogan img {
+      width: 90%;
+      margin: 0 auto;
+   }
+
+   #content .slogan p, #content .human p {
+      font-size: 14px;
+   }
+
+   #content .design>div .con5,
+   #content .design>div .con6 {
+      display: none;
+   }
+
+   #content .design .con2 .con_img,
+   #content .design .con3 .con_img {
+      display: none;
+   }
+
+   #content .design .con2,
+   #content .design .con3 {
+      height: auto;
+   }
+
+   #content .design .con2 {
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 20px;
+   }
+
+   #content .design>div>div p:last-of-type {
+      display: block;
+      font-size: 14px;
+   }
+
+   #content .design>div>div {
+      width: 80%;
+   }
+
+   #content .human li p {
+      font-size: 16px;
+      margin: 40px auto 0;
+   }
+
+   #content .human li:nth-of-type(2) {
+      display: none;
+   }
+   #content .human li {
+      width: 65%;
+      padding: 20px;
+   }
+   #content .human li img {
+      width: 80%;
+      margin: 0 auto;
+   }
+
+   #content .human ul {
+      margin-top: 0;
+   }
+
+   #content .human {
+      padding-bottom: 50px;
+   }
+
+}
+
+
+

@@ -1,0 +1,113 @@
+.mail_content {
+    width: 800px;
+    margin: 0 auto ;
+}
+
+#content .title_area {
+    margin-bottom: 50px;
+}
+
+#content .content_area {
+    width: auto;
+    background-color: #f8f8f8;
+    padding: 100px 0;
+}
+.row {
+    margin-bottom: 10px
+}
+
+h2 {
+    line-height:normal;
+    font-weight: bold;
+}
+
+h3 {
+    line-height:normal;
+}
+
+.row label {
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+
+.form-control {
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow: none;
+    border: 1px solid #ccc;
+    height: 70px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.082);
+    background-color: white;
+}
+
+optgroup {
+    color: black;
+}
+
+option {
+    color: #666;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.158);
+    border-color: #ccc;
+}
+
+textarea {
+    resize: none;
+}
+
+.help-block {
+    text-align: center;
+    color: red;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.help-block img {
+    margin-top: 9px;
+    margin-right: 8px;
+}
+
+.control-group.warning input,
+.control-group.error input,
+.control-group.error select {
+    border-color: red;
+}
+
+#success {
+    position: fixed;
+    width: 800px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#success>div {
+    text-align: center;
+    height: 150px;
+    line-height: 120px;
+    font-size: 20px;
+    box-shadow: 0 0 40px #00000029;
+}
+
+.ask {
+    margin-top: 50px;
+}
+
+.send .btn {
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+a:hover {
+    text-decoration: none;
+}

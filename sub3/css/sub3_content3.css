@@ -1,0 +1,444 @@
+#job>div:first-of-type,
+#process>div:first-of-type,
+.core {
+    width: 2000px;
+    height: 400px;
+    position: relative;
+    top: 0;
+    left: 50%;
+    margin-left: -1000px;
+    overflow: hidden;
+}
+
+#job>div:first-of-type {
+    background: url(../images/content3/job.jpg);
+}
+
+#job .jobinfo {
+    margin: 100px 0;
+}
+
+#job .jobinfo dt,
+.jobarea>p,
+.core>div>p {
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-size: 38px;
+    color: black;
+    position: relative;
+    text-align: center;
+}
+
+#job .jobinfo dt {
+    display: inline-block;
+    vertical-align: super;
+    width: 446px;
+}
+
+#job .jobinfo span {
+    font-size: 28px;
+}
+
+/* #job .jobinfo dt::after , .jobarea>p::after, .core>p::after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: -12px;
+    top: 10px;
+    background-color: #f47320;
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+}
+ */
+
+
+#job .jobinfo dd {
+    font-size: 22px;
+    line-height: 42px;
+    font-weight: 300;
+    display: inline-block;
+    width: 750px;
+    text-align: justify;
+}
+
+#job .jobarea {
+    margin: 100px 0 150px;
+}
+
+#job .jobarea ul {
+    overflow: hidden;
+}
+
+#job .jobarea li {
+    float: left;
+    width: 280px;
+    margin: 10px;
+
+}
+
+
+
+
+#job .jobarea li img {
+    display: block;
+    width: 25%;
+    margin: 40px auto 40px;
+}
+
+#job .jobarea dl {
+    margin: 40px 15px 0;
+}
+
+#job .jobarea dt {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #d2081e;
+    padding: 5px 0 35px;
+}
+
+#job .jobarea dd {
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 0 15px;
+    line-height: 30px;
+    height: 170px;
+    box-sizing: border-box;
+    border-bottom: 3px solid white;
+    transition: .2s ease-in-out all;
+}
+
+#job .jobarea li:hover dd {
+    border-bottom: 3px solid #d2081e;
+}
+
+#job .core {
+    background-color: #f8f8f8;
+    height: auto;
+    padding: 100px 0;
+}
+
+#job .core>div:first-of-type {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#job .core p {
+    position: absolute;
+    top: 400px;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 100%;
+    background-color: #d2081e;
+    font-size: 30px;
+    color: white;
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.4);
+}
+
+#job .core ul {
+    overflow: hidden;
+    height: 700px;
+}
+
+#job .core li {
+    float: left;
+    width: 220px;
+    margin: 0 10px;
+    box-sizing: border-box;
+}
+
+
+#job .core li:nth-of-type(1) {
+    position: absolute;
+    top: -5%;
+    left: 40%;
+}
+
+#job .core li:nth-of-type(2) {
+    position: absolute;
+    top: 23%;
+    right: 13%;
+}
+
+#job .core li:nth-of-type(3) {
+    position: absolute;
+    top: 23%;
+    left: 13%;
+}
+
+#job .core li:nth-of-type(4) {
+    position: absolute;
+    bottom: -10%;
+    left: 23%;
+}
+
+#job .core li:nth-of-type(5) {
+    position: absolute;
+    bottom: -10%;
+    right: 23%;
+}
+
+#job .core li img {
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+}
+
+
+#job .core dl {
+    padding: 20px 0;
+}
+
+#job .core dt {
+    text-align: center;
+    color: #d2081e;
+    font-weight: bold;
+    font-size: 22px;
+    margin: 20px 0 10px;
+}
+
+#job .core dd {
+    text-align: justify;
+    font-weight: 300;
+    color: black;
+    font-size: 18px;
+    padding: 20px;
+}
+
+
+
+#process>div:first-of-type {
+    background: url(../images/content3/process.jpg);
+}
+
+#process .oneyear {
+    margin: 100px 0;
+    overflow: hidden;
+}
+
+#process div>p {
+    font-weight: bold;
+    color: black;
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#process .oneyear>p {
+    margin-bottom: 50px;
+}
+
+#process .oneyear ul {
+    width: 930px;
+    margin: 0 auto;
+}
+
+#process .oneyear li {
+    margin: 30px 0;
+    overflow: hidden;
+    padding: 15px;
+}
+
+#process .oneyear li>div:first-of-type {
+    float: left;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: #d2081e;
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+    border-radius: 100%;
+    line-height: 48px;
+    margin-top: 120px;
+}
+
+#process .oneyear .oneyear_innerbox {
+    width: 820px;
+    float: left;
+    position: relative;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.07);
+}
+
+#process .oneyear li img {
+    width: 370px;
+    height: 300px;
+    float: left;
+    border-radius: 20px 0 0 20px;
+}
+
+#process .oneyear dl {
+    float: left;
+    width: 435px;
+    box-sizing: border-box;
+    padding: 40px;
+    margin-top: 30px;
+}
+
+#process .oneyear li:nth-of-type(odd) .oneyear_innerbox {
+    margin-left: 30px;
+}
+
+#process li:nth-of-type(even) img {
+    border-radius: 0 20px 20px 0;
+}
+
+#process li:nth-of-type(even) .oneyear_innerbox dl {
+    text-align: right;
+}
+
+#process .oneyear li:nth-of-type(even) div:first-of-type,
+#process .oneyear li:nth-of-type(even) .oneyear_innerbox img {
+    float: right;
+}
+
+#process .oneyear dt {
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0 0 20px;
+    color: black;
+}
+
+#process .oneyear dd {
+    text-align: justify;
+    font-weight: 300;
+    line-height: 28px;
+    font-size: 18px;
+}
+
+#process .program {
+    width: 2000px;
+    position: relative;
+    top: 0;
+    left: 50%;
+    margin-left: -1000px;
+    background-color: #f8f8f8;
+    padding: 100px 0;
+}
+
+#process .program>div {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#process .program ul {
+    overflow: hidden;
+    padding-top: 50px;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+#process .program li {
+    float: left;
+    width: 30.33%;
+    position: relative;
+    background-color: white;
+    margin: 20px 1.5%;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.05);
+    text-align: center;
+    border-radius: 20px;
+}
+
+#process .program li img {
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 20px 20px 0 0;
+}
+
+#process .program dl {
+    margin-bottom: 50px;
+}
+
+#process .program dt {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    margin: 35px 0;
+}
+
+#process .program dd {
+    font-size: 19px;
+    font-weight: 300;
+    margin: 20px 0;
+}
+
+#process .program dd:last-of-type {
+    font-weight: 500;
+
+}
+
+.register {
+    display: block;
+    width: 180px;
+    height: 45px;
+    border-radius: 30px;
+    border: 2px solid #d2081e;
+    box-sizing: border-box;
+    color: white;
+    font-size: 19px;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 40px;
+    transition: all .2s ease-in-out;
+    background-color: #d2081e;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.register i {
+    margin-left: 20px;
+}
+
+.register:hover {
+    color: #d2081e;
+    background-color: white;
+}
+
+#process .path {
+    margin: 100px 0 200px;
+}
+
+#process .path ul {
+    overflow: hidden;
+    margin-top: 60px;
+}
+
+#process .path li {
+    float: left;
+    width: 20%;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    position: relative;
+}
+
+#process .path li:not(:last-of-type):after {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 15px;
+    background: url(../images/content1/right-arrow.png) center center no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 45px;
+    right: -20px;
+    opacity: .5;
+}
+
+#process .path li img {
+    display: block;
+    width: 35%;
+    margin: 0 auto 40px;
+}

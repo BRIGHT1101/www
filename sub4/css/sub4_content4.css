@@ -1,0 +1,130 @@
+#lab {
+    margin-bottom: 150px;
+}
+
+#lab>div:first-of-type {
+    width: 2000px;
+    height: 400px;
+    position: relative;
+    top: 0;
+    left: 50%;
+    margin-left: -1000px;
+    overflow: hidden;
+    background: url(../images/content4/rd.jpg);
+}
+
+#lab .labinfo>div:first-of-type {
+    margin: 80px 0;
+}
+
+#lab .labinfo>div:first-of-type>p {
+    font-weight: 300;
+    font-size: 20px;
+}
+
+#lab .labinfo>div:first-of-type>p:first-of-type {
+    font-weight: 500;
+    color: black;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+#content .content_area {
+    margin-top: 90px;
+}
+
+#lab .research,
+.patent {
+    overflow: hidden;
+}
+
+#lab .research h3,
+.patent h3 {
+    float: left;
+    width: 20%;
+    color: black;
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+#lab .research>div,
+.patent>div {
+    width: 80%;
+    float: left;
+    padding: 10px 0;
+}
+
+#lab .research>div>img,
+#lab .patent>div>img {
+    float: left;
+    width: 48%;
+    margin: 1%;
+    margin-bottom: 50px;
+}
+
+#lab .task_table table,
+#lab .patent table {
+    width: 98%;
+    margin: 1%;
+}
+
+#lab .task_table table th,
+#lab .task_table table td,
+.patent table th,
+.patent table td {
+    border: 1px solid #ccc;
+}
+
+#lab .task_table>table td {
+    line-height: 50px;
+    font-weight: 300;
+    width: 70%;
+    padding-left: 20px;
+}
+
+#lab .task_table>table th,
+#lab .task_table>div table th,
+.patent th {
+    background-color: #f8f8f8;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#lab .task_table>div table th {
+    width: 20%;
+}
+
+#lab .task_table>div,
+.patent_table>div {
+    margin-top: 50px;
+}
+
+#lab .task_table>div table td,
+.patent td {
+    line-height: 50px;
+    font-weight: 300;
+    padding-left: 20px;
+}
+
+#lab .task_table>div table td.year {
+    text-align: center;
+    font-weight: 400;
+    padding: 0;
+    width: 10%;
+}
+
+#lab .patent {
+    margin: 70px 0 200px;
+}
+
+#lab .patent th {
+    line-height: 50px;
+}
+
+#lab .patent td[rowspan] {
+    padding: 0;
+    text-align: center;
+    width: 20%;
+    font-weight: 400;
+}

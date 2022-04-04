@@ -1,0 +1,453 @@
+/* 와이드 pc  */
+
+#content {
+   margin-top: 100vh;
+   position: relative;
+   transition: .2s ease-in-out filter;
+}
+
+#wrap .visual {
+   position: fixed;
+   display: flex;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100vh;
+   background-image: url("../images/sub3/visual.jpg");
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   align-items: center;
+   justify-content: center;
+   transition: .2s ease-in-out filter;
+}
+
+
+#wrap .visual_text {
+   color: white;
+   display: none;
+   z-index: 10;
+}
+
+#wrap .visual_text h2 {
+   font-family: 'Nothing You Could Do', cursive;
+   font-size: 5.5vw;
+   font-weight: bold;
+   text-shadow: 0 0 30px rgba(0, 0, 0, 0.527);
+   text-align: center;
+}
+
+#wrap .visual_text p {
+   font-size: 1.5vw;
+   text-align: center;
+}
+
+#content .sports_list {
+   color: white;
+   position: relative;
+}
+
+#content .sports_list ul {
+   width: 90%;
+   margin: 0 auto;
+   display: flex;
+   flex-wrap: wrap;
+   padding: 10vw 0;
+   justify-content: space-around;
+}
+
+#content .sports_list li {
+   width: 23%;
+   position: relative;
+   margin: 1%;
+   transition: .2s ease-in-out all;
+   cursor: pointer;
+}
+
+#content .sports_list li p  {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translateX(-50%) translateY(-50%);
+   font-weight: 900;
+   font-size: 2.3vw;
+   background: linear-gradient(to left,  #c6ffdd,#fbd786,#f7797d);
+   background-clip: text;
+   -webkit-background-clip: text;
+   color: transparent;
+   transition: .2s ease-in-out all;
+}
+
+#content .sports_list li img{
+   display: block;
+   width: 100%;
+   filter:brightness(50%) grayscale(100%) ;
+   transition: .2s ease-in-out all;
+}
+
+#content .sports_list li:hover {
+   box-shadow: 0 0 40px rgba(255, 255, 255, 0.2);
+}
+
+#content .sports_list li:hover img {
+   filter: none;
+}
+
+#content .sports_list li:hover p {
+   color: white;
+   text-shadow: 0 0 30px rgba(0, 0, 0, 0.842)
+}
+
+#content .sports_list::before {
+   display: block;
+   content: '';
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   transform: skewY(5deg);
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.404);
+   background-color: rgba(0, 0, 0, 0.95);
+}
+
+
+#content .sports_desc ul {
+   display: flex;
+   flex-wrap: wrap;
+   padding: 10vw 0;
+   width: 90%;
+   margin: 0 auto;
+}
+
+#content .sports_desc ul li {
+   width: 48%;
+   backdrop-filter: blur(10px);
+   background: linear-gradient(to left,  #c6ffdd44,#fbd88650,#f7797d3d);
+   display: flex;
+   align-items: center;
+   padding: 4vw 2vw;
+   box-sizing: border-box;
+   margin: 1%;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.555);
+}
+
+#content .sports_desc ul div {
+   width: 60%;
+}
+
+#content .sports_desc ul div p:first-of-type {
+   font-size: 1.8vw;
+   text-align: center;
+   color: black;
+   font-weight: 900;
+   margin-bottom: -10px;
+}
+
+#content .sports_desc ul div p:last-of-type {
+   font-size: 16px;
+   font-weight: 300;
+   color: black;
+   width: 90%;
+   margin: 20px auto 0;
+   text-align: center;
+}
+
+#content .sports_desc ul div p span {
+   display: block;
+   background: linear-gradient(to left,  #c6ffdd,#fbd786,#f7797d);
+   background-clip: text;
+   -webkit-background-clip: text;
+   color: transparent;
+   font-size: 1.4vw;
+}
+
+#content .sports_desc img {
+   width: 40%;
+   display: block;
+   filter: drop-shadow(0 0 15px rgba(255, 255, 255, 0.555));
+   transition: .2s ease-in-out all;
+}
+
+#content .sports_desc li:hover img {
+   transform: rotate(3deg);
+   filter: drop-shadow(0 0 45px white);
+}
+
+#content .media_list::before {
+   display: block;
+   content: '';
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   transform: skewY(5deg);
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.404);
+   background-color: rgba(0, 0, 0, 0.95);
+}
+
+#content .media_list {
+   color: white;
+   position: relative;
+   padding: 5vw 0;
+   margin-bottom: 15vw;
+}
+
+#content .media_list ul {
+   width: 90%;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-around;
+   
+}
+
+#content .media_list li {
+   width: 32%;
+   margin: 1%;
+   transition: .2s ease-in-out all;
+   cursor: pointer;
+}
+
+#content .media_list li div {
+   position: relative
+}
+
+#content .media_list i {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translateX(-50%) translateY(-50%);
+   font-size: 3.5vw;
+   color: rgba(39, 39, 39, 0.89);
+   text-shadow: 0 0 5px rgba(0, 0, 0, 0.247);
+   transition: .2s ease-in-out all;
+}
+
+#content .media_list li:hover i {
+   color: rgba(255, 0, 0, 0.89);
+}
+
+#content .media_list li img {
+   display: block;
+   width: 100%;
+}
+
+#content .media_list li p {
+   font-weight: bold;
+   text-align: center;
+   color: white;
+   position: relative;
+   margin-top: 20px;
+   font-size: 16px;
+}
+
+#content .media_list h3 {
+   width: 90%;
+   font-size: 3vw;
+   color: white;
+   font-weight: 900;
+   position: relative;
+   margin: 3vw auto;
+}
+
+#content .media_list h3 span {
+   background: linear-gradient(to left,  #c6ffdd,#fbd786,#f7797d);
+   background-clip: text;
+   -webkit-background-clip: text;
+   color: transparent;
+}
+
+ .modal {
+   display: none;
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   flex-direction: column;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+}
+
+.modal>div {
+   width: 50%;
+   margin: 0 auto;
+}
+
+ .modal>div>div{
+   position: relative; 
+   width: 100%; 
+   height: auto;
+   padding-bottom: 56.25%;
+}
+
+ .modal img{
+   display: block;
+   width: 40px;
+   margin-bottom: 20px;
+   position: relative;
+   right: 0;
+   filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.534));
+   cursor: pointer;
+}
+
+.modal iframe {
+   position: absolute;
+   top: 0; 
+   left: 0; 
+   width: 100%;
+   height: 100%;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.438);
+}
+
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+   #content .sports_list li {
+      width: 31.33%;
+   }
+
+   #content .sports_list li:nth-of-type(4),
+   #content .sports_list li:nth-of-type(5) {
+      width: 48%;
+   }
+
+   #content .sports_desc ul li {
+      flex-direction: column;
+   }
+
+   #content .sports_desc ul div {
+      width: 100%;
+   }
+
+   #content .sports_desc ul div p:first-of-type {
+      font-size: 2.2vw;
+   }
+
+   #content .sports_desc ul div p:last-of-type {
+      font-size: 1.4vw;
+   }
+}
+
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+   #content .sports_list li p {
+      font-size: 25px;
+   }
+
+   #content .sports_desc ul div p span {
+      font-size: 16px;
+   }
+
+   #content .sports_desc ul div p:first-of-type {
+      font-size: 24px;
+   }
+
+   #content .sports_desc ul div p:last-of-type {
+      font-size: 16px;
+   }
+
+   #content .media_list ul {
+      flex-wrap: wrap;
+   }
+
+   #content .media_list li {
+      width: 48%;
+      margin-bottom: 25px;
+   }
+
+   #content .media_list li:last-of-type {
+      width: 100%;
+   }
+
+   #content .media_list i {
+      font-size: 50px;
+   }
+
+   #content .sports_desc ul li {
+      flex-direction: row;
+   }
+
+   #content .sports_desc ul li {
+      width: 100%;
+   }
+
+   #content .media_list li p {
+      margin-top: 10px;
+   }
+
+   .modal>div {
+      width: 70%;
+   }
+
+
+}
+
+
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+   #content .sports_list li {
+      width: 48%;
+   }
+
+   #content .media_list h3 {
+      font-size: 25px;
+   }
+
+}
+
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+   #content .sports_list ul {
+      width: 100%;
+      padding: 13vw 0;
+   }
+
+   #content .sports_list li {
+      width: 50%;
+      margin: 0;
+   }
+
+   #content .sports_list li:nth-of-type(4), #content .sports_list li:nth-of-type(5) {
+      width: 50%;
+   }
+
+   #content .sports_desc ul li {
+      flex-direction: column;
+      margin: 1% 0;
+   }
+
+   #content .sports_desc ul {
+      width: 100%;
+   }
+
+   #content .sports_desc img {
+      width: 30%;
+   }
+
+   #content .media_list li {
+      width: 100%;
+      margin-bottom: 25px;
+   }
+
+   #content .media_list h3 {
+      margin: 6vw auto;
+   }
+
+   #content .media_list li p {
+      margin-top: 10px;
+   }
+
+   .modal>div {
+      width: 90%;
+   }
+
+   #content .sports_list li p {
+      font-size: 5vw;
+   }
+
+}
+
+
+

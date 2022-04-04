@@ -1,0 +1,150 @@
+#content .service_center {
+    overflow: hidden;
+    border: 2px dashed #d2082046;
+    border-radius: 25px;
+}
+
+#content .service_center li {
+    float: left;
+    width: 33.33%;
+    padding: 50px 0;
+    transition: .2s ease-in-out;
+    box-sizing: border-box;
+}
+
+#content .service_center li:hover {
+    background-color: #d208200c;
+}
+
+#content .service_center a {
+    display: block;
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid #d2081e;
+    box-sizing: border-box;
+    color: #d2081e;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 36px;
+    transition: all .2s ease-in-out;
+    background-color: white;
+}
+
+#content .service_center a i {
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+#content .service_center a:hover {
+    color: white;
+    background-color: #d2081e;
+}
+
+#content .service_center dl {
+    height: 190px;
+}
+
+#content .service_center dt {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#content .service_center dd {
+    padding: 20px 40px;
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+#content .service_center img {
+    width: 20%;
+    margin: 30px auto;
+    display: block;
+}
+
+
+#content .faq {
+    margin: 150px 0 200px;
+}
+
+
+#content .faq .answer {
+    display: none;
+}
+
+#content .faq li a {
+    display: block;
+    line-height: 60px;
+    padding: 15px 0;
+    float: left;
+    width: 1090px;
+}
+
+#content .faq li:first-of-type>p {
+    border-top: 1px solid #ddd;
+}
+
+#content .faq li>p {
+    font-size: 18px;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+    overflow: hidden;
+}
+
+#content .faq li>p:hover {
+    background-color: #f8f8f8;
+}
+
+#content .faq img:not(.arrow) {
+    width: 25px;
+    padding: 10px;
+    border-radius: 100%;
+    border: 1px solid #ddd;
+    margin: 22.5px 20px;
+    background-color: white;
+    display: block;
+    float: left;
+
+}
+
+#content .faq .arrow {
+    position: absolute;
+    right: 30px;
+    top: 40px;
+    transition: .2s ease-in-out all;
+}
+
+#content .faq div {
+    overflow: hidden;
+    font-size: 20px;
+    border-bottom: 1px solid #ddd;
+    background-color: #f0f0f0;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+
+#content .faq div p {
+    float: left;
+    width: 1000px;
+    padding: 25px 0;
+}
+
+#content .faq h3 {
+    font-size: 34px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+}
+
+#content .faq>p {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}

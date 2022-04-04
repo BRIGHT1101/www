@@ -1,0 +1,44 @@
+.visual {
+  background-image: url(../images/sub1/content1/visual.jpg);
+}
+
+#content li img {
+  width: 100%;
+}
+
+#content .introduction h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: black;
+  margin-bottom: 4.5%;
+}
+
+#content .introduction h3 span {
+  background: linear-gradient(to top, #d2082031 40%, transparent 40%) 0 -3px;
+}
+
+#content .introduction div {
+  margin: 4.5% 4.5% 70px;
+}
+
+#content .introduction div p {
+  margin-bottom: 2%;
+  text-align: justify;
+  font-size: 1.3rem;
+}
+
+#content .introduction li:last-of-type div {
+  height: 500px;
+  margin: 0;
+  padding: 9% 4.5% 40px;
+  background: url(../images/sub1/content1/list5_img.jpg) no-repeat center;
+  background-size: cover;
+}
+
+#content .introduction li:last-of-type div h3 {
+  text-align: center;
+}
+
+#content .introduction li:last-of-type div h3 span {
+  background: linear-gradient(to top, #0354eb31 40%, transparent 40%) 0 -3px;
+}

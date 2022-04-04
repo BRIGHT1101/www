@@ -1,0 +1,62 @@
+/* visual */
+.visual {
+  height: 350px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.visual h3 {
+  color: white;
+  font-weight: bold;
+  font-size: 2.4rem;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.295);
+  position: relative;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#content>p:first-of-type {
+  font-weight: bold;
+  color: black;
+  font-size: 1.7rem;
+  padding: 70px 4.5%;
+  text-align: center;
+}
+
+/* con_nav */
+
+#content .con_nav {
+  background-color: #f8f8f8;
+}
+
+#content .con_nav ul {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
+  font-size: 1.3rem;
+  padding: 16px;
+  border-radius: 10px;
+}
+
+#content .con_nav li {
+  float: left;
+  width: 50%;
+}
+
+#content .con_nav li a {
+  display: block;
+  line-height: 3rem;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+#content .con_nav li a.activated {
+  box-shadow: -1px 1px 16px 0 rgba(0, 0, 0, 0.086);
+  background-color: white;
+  font-weight: bold;
+  color: black;
+}

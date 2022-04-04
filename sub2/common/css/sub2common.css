@@ -1,0 +1,299 @@
+/* sub1 common - visual / subnav / title_area */
+
+.visual {
+    width: 2000px;
+    position: relative;
+    top: 0;
+    left: 50%;
+    margin-left: -1000px;
+}
+
+.visual>div {
+    color: black;
+    width: 1200px;
+    height: 100%;
+    margin-left: -600px;
+    position: absolute;
+    left: 50%;
+    top: 0;
+}
+
+.visual>div div {
+    font-size: 40px;
+    font-weight: 500;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.visual h3 {
+    float: left;
+    font-weight: 500;
+}
+
+.visual span {
+    margin-left: 10px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+.sub_menu {
+    border-bottom: 1px solid #ccc;
+    font-size: 18px;
+}
+
+.sub_menu ul {
+    overflow: hidden;
+    width: 700px;
+    margin: auto;
+}
+
+.sub_menu li {
+    width: 25%;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+
+.sub_menu li:not(.current):hover a {
+    border-bottom: 2px solid #d2081e;
+    font-weight: 500;
+    color: #d2081e;
+}
+
+.sub_menu li:not(:last-of-type)::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 26.5px;
+    right: 0;
+    width: 1px;
+    height: 15px;
+    background-color: #ccc;
+}
+
+.sub_menu li a {
+    display: block;
+    line-height: 65px;
+}
+
+.sub_menu .current a {
+    border-bottom: 2px solid #d2081e;
+    font-weight: 500;
+    color: #d2081e;
+}
+
+#content {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#content .title_area {
+    position: relative;
+    overflow: hidden;
+    color: black;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+#content .line_map {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    color: #666;
+    font-size: 14px;
+}
+
+#content .title_area h2 {
+    margin: 120px 0 35px 0;
+    font-size: 45px;
+}
+
+#content .title_area p {
+    font-size: 24px;
+}
+
+/* modal */
+
+.modal_box {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 110;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 900px;
+    height: 500px;
+    background-color: white;
+    transform: translate(-50%, -50%);
+    z-index: 120;
+    border-radius: 15px;
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.2);
+    padding: 40px;
+}
+
+.popup img {
+    float: left;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.popup .txt {
+    margin-left: 40px;
+    float: left;
+    width: 360px;
+    position: relative;
+}
+
+.popup .txt .pdname {
+    font-size: 26px;
+    font-weight: bold;
+    color: black;
+}
+
+.popup .txt .pdsummary {
+    font-weight: 300;
+    color: #666;
+}
+
+.popup .txt .pdprice {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+}
+
+.popup .txt .pdinfo {
+    margin-top: 40px;
+    font-size: 18px;
+    text-align: justify;
+    font-weight: 300;
+}
+
+.popup .txt .pdcolor {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin: 10px 5px 0 0;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.473);
+    opacity: .7;
+}
+
+.popup .txt .pdcolortitle,
+.pdsizetitle {
+    margin-top: 20px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.popup .txt .pdsize {
+    font-size: 18px;
+}
+
+.popup .close_btn {
+    color: white;
+    position: absolute;
+    top: 5px;
+    right: -45px;
+    font-size: 35px;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.473);
+    transition: .2s ease-in-out all;
+}
+
+.popup .close_btn:hover {
+    text-shadow: 0 0 15px rgba(0, 0, 0, 1);
+}
+
+
+/*  other_product*/
+
+
+#content .other_product {
+    width: 2000px;
+    position: relative;
+    top: 0;
+    left: 50%;
+    margin-left: -1000px;
+    padding-top: 50px;
+}
+
+#content .other_product>div {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+#content .other_product>div p {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+
+#content .other_product ul {
+    width: 3011px;
+    position: relative;
+    left: -900px;
+}
+
+
+#content .other_product ul li {
+    display: inline-block;
+    margin: 100px 150px;
+    text-align: center;
+}
+
+#content .other_product ul img {
+    display: block;
+    width: 300px;
+}
+
+#content .other_product ul span {
+    display: block;
+    font-weight: 500;
+    font-size: 22px;
+    color: black;
+    margin-top: 20px;
+}
+
+.other_product>div>div {
+    position: absolute;
+}
+
+.other_product i {
+    color: white;
+    font-size: 50px;
+    padding: 20px;
+    cursor: pointer;
+    transition: .3s ease-in-out all;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.other_product i:hover {
+    text-shadow: 0 0 13px rgba(0, 0, 0, 0.3);
+}
+
+.left {
+    top: 35%;
+    left: 350px;
+}
+
+.right {
+    top: 35%;
+    right: 350px;
+}

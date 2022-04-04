@@ -1,0 +1,102 @@
+<?
+    session_start();
+    @extract($_POST);
+    @extract($_GET);
+    @extract($_SESSION);
+?>
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>고객지원 - 고객상담</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub6common.css">
+    <link rel="stylesheet" href="css/sub6_content3.css">
+    <script src="../common/js/prefixfree.min.js"></script>
+</head>
+
+<body>
+    <? include "../common/sub_header.html" ?>
+    <div class="visual">
+        <img src="./common/images/visual.jpg" alt="visual">
+        <div>
+            <div>
+                <h3>고객지원</h3>
+                <span>Customer Center</span>
+            </div>
+        </div>
+    </div>
+    <div class="sub_menu">
+        <ul>
+            <li><a href="../greet/list.php">공지사항</a></li>
+            <li><a href="sub6_2.html">오시는 길</a></li>
+            <li class="current"><a href="sub6_3.html">고객상담</a></li>
+        </ul>
+    </div>
+    <article id="content">
+        <div class="title_area">
+            <div class="line_map">
+                <i class="fas fa-home"><span class="hidden">HOME</span></i> &gt; 고객지원 &gt; <strong>고객상담</strong>
+            </div>
+            <h2>고객상담</h2>
+            <p>궁금하신 사항을 빠르게 해결하세요</p>
+        </div>
+        <div class="content_area">
+            <section class="service_center">
+                <h3 class="hidden">서비스센터</h3>
+                <ul>
+                    <li>
+                        <img src="images/content3/service.png" alt="서비스센터">
+                        <dl>
+                            <dt>한샘서비스센터</dt>
+                            <dd>고객님의 AS에 대한 불편을 신속히 대응하고, 만족스러운 서비스지원을 위해
+                                한샘서비스센터 홈페이지를 운영중입니다.</dd>
+                        </dl>
+                        <a href="https://as.hanssem.com/" target="_blank">
+                            <div>바로가기<i class="fas fa-angle-right"></i></div>
+                        </a>
+                    </li>
+                    <li>
+                        <img src="images/content3/checked.png" alt="서비스예약">
+                        <dl>
+                            <dt>서비스 예약</dt>
+                            <dd>고객님께서 원하는 시간대에 전화 또는
+                                출장 서비스가 가능합니다.
+                                이제 쉽고 편리하게 예약하세요.</dd>
+                        </dl>
+                        <a href="https://as.hanssem.com/reserve/PhoneCounsel/view.as" target="_blank">
+                            <div>바로가기<i class="fas fa-angle-right"></i></div>
+                        </a>
+                    </li>
+                    <li>
+                        <img src="images/content3/customer.png" alt="고객의소리">
+                        <dl>
+                            <dt>고객의 소리</dt>
+                            <dd>고객님의 소중한 한마디 언제나 귀기울이는
+                                한샘서비스센터가 되겠습니다. 작성해주신 내용으로 더 나은 고객감동을 제공하겠습니다.</dd>
+                        </dl>
+                        <a href="https://as.hanssem.com/board/view.as?CONTEXT_TYPE=CPL" target="_blank">
+                            <div>바로가기<i class="fas fa-angle-right"></i></div>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <section class="faq">
+                <h3>FAQ</h3>
+                <p>자주 접수되는 문의사항을 컨텐츠와 매뉴얼을 통해 스스로 해결하실 수 있습니다.</p>
+                <ul>
+                </ul>
+
+
+            </section>
+        </div>
+    </article>
+    <? include "../common/sub_footer.html" ?>
+    <script src="js/sub6_content3.js"></script>
+</body>
+
+</html>

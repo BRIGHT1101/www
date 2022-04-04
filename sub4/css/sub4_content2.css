@@ -1,0 +1,197 @@
+#client {
+    margin-bottom: 200px;
+}
+
+#client>div:first-of-type,
+#promise>div:first-of-type {
+    width: 2000px;
+    height: 400px;
+    position: relative;
+    top: 0;
+    left: 50%;
+    margin-left: -1000px;
+    overflow: hidden;
+}
+
+#client>div:first-of-type {
+    background: url(../images/content2/safety.jpg);
+}
+
+#client .clientinfo>div:first-of-type,
+.promiseinfo>div:first-of-type {
+    margin: 80px 0 100px;
+}
+
+#client .clientinfo>div:first-of-type>p:first-of-type,
+.promiseinfo>div:first-of-type>p:first-of-type {
+    font-weight: 500;
+    color: black;
+    font-size: 26px;
+}
+
+#client .client_service h4 {
+    float: left;
+    width: 30%;
+    font-size: 26px;
+    font-weight: bold;
+    color: black;
+}
+
+#client .service_list li {
+    margin-bottom: 80px;
+    overflow: hidden;
+}
+
+#client .service_list li>div {
+    float: left;
+    width: 70%;
+}
+
+#client .service_list li>div img {
+    width: 48%;
+    margin: 1%;
+}
+
+#client .service_list li>div p {
+    margin: 20px 1% 0;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 30px;
+
+}
+
+#client .client_service>div:nth-of-type(2) {
+    overflow: hidden;
+}
+
+#client .client_service table {
+    font-size: 20px;
+    width: 70%;
+    float: left;
+}
+
+#client .client_service thead {
+    background-color: #f8f8f8;
+    line-height: 60px;
+}
+
+#client .client_service thead th {
+    font-weight: 500;
+    border: 1px solid #ccc;
+}
+
+#client .client_service tbody {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#client .client_service tbody td {
+    border: 1px solid #ccc;
+    padding: 20px 10px;
+}
+
+#client .client_service tbody td:first-of-type {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    width: 150px;
+    font-size: 18px;
+}
+
+#promise>div:first-of-type {
+    background: url(../images/content2/quality.jpg);
+}
+
+#promise .promiseinfo>div:first-of-type>p:nth-of-type(2),
+.clientinfo>div:first-of-type>p:nth-of-type(2) {
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 300;
+}
+
+#promise .promiseinfo>div:first-of-type>p:nth-of-type(3),
+.clientinfo>div:first-of-type>p:nth-of-type(3) {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#promise h4 {
+    float: left;
+    width: 20%;
+    font-size: 26px;
+    font-weight: bold;
+    color: black;
+}
+
+#promise .process {
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+
+#promise .process_list {
+    float: left;
+    width: 80%;
+}
+
+#promise .process_list>ul>li {
+    float: left;
+    width: 18%;
+    margin: 0 1%;
+    text-align: center;
+}
+
+#promise .process_list>ul>li p {
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #004f98;
+    line-height: 70px;
+    position: relative;
+    color: white;
+}
+
+#promise .process_list>ul>li:not(:last-of-type) p::after {
+    content: '〉';
+    position: absolute;
+    top: 0px;
+    font-size: 16px;
+    right: -21px;
+    color: #004f98;
+}
+
+#promise .process_list>ul>li>ul {
+    font-size: 18px;
+    font-weight: 300;
+    margin: 30px 0;
+}
+
+#promise .process_list>ul>li>ul>li {
+    line-height: 50px;
+    background-color: #f8f8f8;
+    margin: 20px 0;
+}
+
+#promise .six_sigma {
+    margin-bottom: 200px;
+    overflow: hidden;
+}
+
+#promise .six_sigma div {
+    float: left;
+    width: 80%;
+}
+
+#promise .six_sigma img {
+    float: left;
+    width: 48%;
+    margin: 1%;
+    display: block;
+}
+
+#promise .six_sigma p {
+    clear: both;
+    font-weight: 300;
+    margin-left: 1%;
+    padding-top: 30px;
+    font-size: 20px;
+}

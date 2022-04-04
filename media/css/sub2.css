@@ -1,0 +1,458 @@
+/* 와이드 pc  */
+
+#content {
+   margin-top: 100vh;
+   position: relative;
+   border-radius: 100% 100% 100% 100% / 5% 5% 5% 5% ; 
+   box-shadow: 0 0 40px rgba(0, 0, 0, 0.397);
+   overflow: hidden;
+   margin-bottom: 150px;
+}
+
+#wrap .visual {
+   position: fixed;
+   display: flex;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100vh;
+   background-image: url("../images/sub2/visual.jpg");
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   align-items: center;
+   justify-content: center;
+}
+
+
+#wrap .visual_text {
+   color: white;
+   display: none;
+}
+
+#wrap .visual_text h2 {
+   font-family: 'Nothing You Could Do', cursive;
+   font-size: 5.5vw;
+   font-weight: bold;
+   text-shadow: 0 0 30px rgba(0, 0, 0, 0.527);
+   text-align: center;
+}
+
+#wrap .visual_text p {
+   font-size: 1.5vw;
+   text-align: center;
+}
+
+#content .shoes, #content .arrivlas {
+   padding: 8vw 0;
+   background-color: white;
+}
+
+
+
+#content section h3 {
+   text-align: center;
+   color: black;
+   font-size: 4.5vw;
+   font-weight: 900;
+}
+
+#content .shoes h3::after, #content .arrivlas h3::after {
+   content: '';
+   width: 20%;
+   height: 3px;
+   background-color: #cf112d;
+   display: block;
+   position: relative;
+   bottom : -20px;
+   left: 50%;
+   transform: translateX(-50%);
+   transition: .2s ease-in-out width;
+}
+
+#content .shoes_intro {
+   display: flex;
+   flex-wrap: wrap;
+   width: 90%;
+   margin: 2vw auto;
+   align-items: center;
+}
+
+#content .shoes_intro>div {
+   width: 50%;
+}
+
+#content .shoes_intro>p {
+   text-align: center;
+   display: none;
+   font-size: 18px;
+   width: 95%;
+   line-height: 32px;
+   font-weight: 300;
+}
+
+#content .shoes_intro>p:first-of-type {
+   margin: 0 auto 5vw;
+   padding-bottom: 5vw;
+   border-bottom: 1px solid #ccc;
+}
+
+#content .shoes_intro>p:last-of-type {
+   margin: 3vw auto 0;
+}
+
+#content .shoes_intro>div img {
+   display: block;
+   width: 100%;
+   transition: .2s ease-in-out all;
+}
+
+#content .shoes_intro .intro_title {
+   text-align: center;
+   font-weight: bold;
+   font-size: 3vw;
+}
+
+#content .shoes_intro .intro_title span {
+   font-weight: 900;
+   color: #cf112d;
+}
+
+
+#content .shoes_intro .intro_desc p:first-of-type {
+   text-align: center;
+   font-family: 'Shadows Into Light Two', cursive;
+   font-size: 1.5vw;
+   margin-bottom: 5%;
+}
+
+#content .shoes_intro .intro_desc p:last-of-type {
+   font-size: 1.2vw;
+   font-weight: 300;
+}
+
+#content .recommend {
+   backdrop-filter: blur(3px);
+   padding: 5vw 0;
+}
+
+#content .recommend h3 {
+   color: white;
+   text-shadow: 0 0 10px rgba(0, 0, 0,1);
+}
+
+#content .recommend ul {
+   width: 90%;
+   margin: 2vw auto ;
+   display: flex;
+   justify-content: space-around;
+}
+
+#content .recommend li {
+   position: relative;
+   width: 25%;
+   box-sizing: border-box;
+   padding: 1%;
+   border-radius: 20px;
+   overflow: hidden;
+}
+
+#content .recommend li div {
+   position: absolute;
+   width: 60%;
+   height: 54%;
+   margin: 23% 0;
+   left: 50%;
+   transform: translateX(-50%);
+   border-radius: 100%;
+   top: 0;
+   z-index: -1;
+   opacity: 1;
+   transition: all .2s ease-in-out;
+}
+
+
+#content .recommend li:hover div {
+   width: 100%;
+   height: 100%;
+   margin: 0;
+   border-radius: 0;
+   opacity: .7;
+}
+
+#content .recommend li p {
+   text-align: center;
+   color: white;
+   font-size: 1.7vw;
+   font-weight: bold;
+   text-shadow: 0 0 10px rgba(0, 0, 0, 0.445);
+}
+
+#content .recommend li:nth-of-type(1) div{
+   background: linear-gradient(#eecda3,#ef629f);
+}
+
+#content .recommend li:nth-of-type(3) div{
+   background: linear-gradient(#43cea2, #185b9d);
+}
+
+#content .recommend li:nth-of-type(2) div{
+   background: linear-gradient(#4568dc   ,#fa91ff);
+}
+
+#content .recommend li:nth-of-type(4) div{
+   background: linear-gradient(#fd7215 , #ffe600);
+}
+
+
+#content .recommend li img{
+   display: block;
+   width: 100%;
+}
+
+#content .arrivlas {
+   padding-bottom: 150px;
+}
+
+#content .arrivlas ul {
+   width: 90%;
+   margin: 2vw auto 0 ;
+   display: flex;
+   justify-content: space-around;
+}
+
+#content .arrivlas ul li {
+   width: 30%;
+}
+
+
+
+#content .arrivlas ul li img {
+   display: block;
+   width: 90%;
+   margin: 0 auto;
+   filter: drop-shadow(10px 2px 5px rgba(0, 0, 0, 0.20));
+   transition: ease-in-out all .2s;
+}
+
+#content .arrivlas ul li:hover img {
+   transform: scale(1.1);
+   filter: drop-shadow(10px 2px 5px rgba(0, 0, 0, 0.467));
+   }
+
+#content .arrivlas ul li p:first-of-type {
+   font-weight: bold;
+   text-align: center;
+   font-size: 2vw;
+   color: black;
+   margin-bottom: 1vw;
+}
+
+#content .arrivlas ul li p:last-of-type {
+   text-align: center;
+   font-size: 18px;
+   font-weight: 300;
+}
+
+
+
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+   #content .shoes_intro .intro_desc p:last-of-type {
+      display: none;
+   }
+
+   #content .shoes_intro>p {
+      display: block;
+   }
+
+   #content .shoes_intro .intro_title {
+      font-size: 35px;
+   }
+
+   #content .shoes_intro .intro_desc p:first-of-type {
+      font-size: 25px;
+   }
+
+   #content .recommend li:last-of-type {
+      display: none;
+   }
+
+   #content .recommend li {
+      width: 30%;
+   }
+
+   #content .arrivlas ul li p:last-of-type {
+      font-size: 16px;
+   }
+
+}
+
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+   #content .recommend ul {
+      flex-wrap: wrap;
+   }
+
+   #content .recommend li {
+      width: 35%;
+   }
+
+   #content .recommend li:last-of-type {
+      display: block;
+   }
+
+   #content .arrivlas ul li {
+      width: 40%;
+   }
+
+   #content .arrivlas ul li:last-of-type {
+      display: none;
+   }
+
+   #content .recommend li p {
+      font-size: 22px;
+   }
+}
+
+
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+   #content .shoes_intro>div {
+      width: 100%;
+      margin: 0 auto;
+   }
+
+   #content .shoes_intro>div img {
+      width: 70%;
+      margin: 0 auto;
+   }
+
+   #content .shoes_intro>div:nth-of-type(2) {
+      padding-bottom: 8vw;
+      margin-bottom: 8vw;
+      border-bottom: 1px solid #ccc;
+   }
+
+   #content .shoes_intro>div:nth-of-type(3)  {
+      margin-bottom: 5vw;
+   }
+
+   #content .shoes_intro>p {
+      display: none;
+   }
+
+   #content .shoes_intro .intro_desc p:last-of-type {
+      display: block;
+      font-size: 14px;
+      text-align: center;
+   }
+
+   #content .recommend li {
+      width: 45%;
+   }
+
+   #content .arrivlas ul {
+      flex-wrap: wrap;
+      margin-top: 5vw;
+   }
+
+   #content .arrivlas ul li {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+   }
+
+   #content .arrivlas ul li:last-of-type {
+      display: flex;
+   }
+
+   #content .arrivlas ul li img , #content .arrivlas ul li div {
+      width: 45%;
+   }
+
+   #content .arrivlas ul li p:first-of-type {
+      font-size: 16px;
+   }
+
+   #content section h3 {
+      font-size: 32px;
+   }
+
+   #content .arrivlas ul li p:last-of-type {
+      font-size: 14px;
+   }
+
+
+}
+
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+   #content .shoes_intro .intro_title {
+      font-size: 24px;
+      margin-bottom: 10px;
+   }
+
+   #content .shoes_intro .intro_desc p:first-of-type {
+      display: none;
+   }
+
+   #content .shoes_intro .intro_desc p:last-of-type {
+      width: 80%;
+      margin: 0 auto;
+   }
+
+   #content .recommend li:last-of-type {
+      display: none;
+   }
+
+   #content .recommend li {
+      width: 60%;
+      margin-bottom: 10px;
+   }
+
+   #content .recommend {
+      padding-top: 10vw;
+   }
+
+   #content .recommend ul {
+      margin-top: 30px;
+   }
+
+   #content .arrivlas ul li {
+      display: block;
+   }
+
+   #content .arrivlas ul li div {
+      width: 90%;
+      margin: 0 auto 10px;
+   }
+
+   #content .arrivlas ul li img {
+      width: 70%;
+   }
+
+   #content .arrivlas ul li:last-of-type {
+      display: block ;
+   }
+
+   #content .arrivlas ul {
+      margin-bottom: 0;
+   }
+
+   #content .arrivlas {
+      padding-bottom: 70px;
+   }
+   #content .shoes {
+      padding-top: 12vw;
+   }
+
+}
+
+
+

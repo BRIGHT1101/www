@@ -1,0 +1,94 @@
+#content .content_area li {
+    overflow: hidden;
+    width: 2000px;
+    position: relative;
+    top: 0;
+    left: 50%;
+    margin-left: -1000px;
+    padding-bottom: 200px;
+}
+
+#content .content_area li img {
+    float: right;
+    border-radius: 20px 0 0 20px;
+}
+
+#content .content_area li div {
+    float: right;
+    text-align: end;
+    margin: 70px 80px 0 0;
+}
+
+#content h3 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 60px;
+    color: black;
+}
+
+#content h3 span {
+    background: linear-gradient(to top, #ffff00 40%, transparent 40%);
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    transition: 0.23s ease-in;
+}
+
+#content ul li:last-of-type h3 span {
+    background: linear-gradient(to top, #599dda 40%, transparent 40%);
+}
+
+#content ul li:hover h3 span {
+    background-size: 100% 100%;
+}
+
+#content .content_area div p {
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: -.8px;
+    width: 500px;
+    text-align: justify;
+}
+
+#content .content_area div p:first-of-type {
+    margin-bottom: 25px;
+}
+
+
+#content .content_area li:nth-of-type(odd) p {
+    direction: rtl;
+}
+
+#content ul li:nth-of-type(even) img {
+    float: left;
+    border-radius: 0 20px 20px 0;
+}
+
+#content ul li:nth-of-type(even) div {
+    float: left;
+    text-align: left;
+    margin: 70px 0 0 80px;
+}
+
+#content ul li:last-of-type {
+    background: url(../images/content1/list5_img.jpg);
+    height: 1000px;
+    padding-bottom: 0;
+}
+
+#content ul li:last-of-type div {
+    width: 1200px;
+    margin: 100px auto 0 auto;
+    float: unset;
+    text-align: center;
+}
+
+#content ul li:last-of-type div p {
+    width: 900px;
+    margin: 0 auto;
+    color: black;
+    text-align: justify;
+}
+
+#content .content_area li:nth-of-type(5) p {
+    direction: unset;
+}

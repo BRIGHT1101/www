@@ -1,0 +1,217 @@
+<?
+    session_start();
+    @extract($_POST);
+    @extract($_GET);
+    @extract($_SESSION);
+?>
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>제품소개 - 조명</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub2common.css">
+    <link rel="stylesheet" href="css/sub2_content2.css">
+    <script src="../common/js/prefixfree.min.js"></script>
+</head>
+
+<body>
+    <? include "../common/sub_header.html" ?>
+    <div class="visual">
+        <img src="./common/images/visual.jpg" alt="visual">
+        <div>
+            <div>
+                <h3>제품소개</h3>
+                <span>Product Information</span>
+            </div>
+        </div>
+    </div>
+    <div class="sub_menu">
+        <ul>
+            <li><a href="./sub2_1.html">가구</a></li>
+            <li class="current"><a href="./sub2_2.html">조명</a></li>
+            <li><a href="./sub2_3.html">바스</a></li>
+            <li><a href="./sub2_4.html">홈데코</a></li>
+        </ul>
+    </div>
+    <article id="content">
+        <div class="title_area">
+            <div>
+                <div class="line_map">
+                    <i class="fas fa-home"><span class="hidden">HOME</span></i> &gt; 제품소개 &gt; <strong>조명</strong>
+                </div>
+                <h2>조명</h2>
+            </div>
+        </div>
+        <div class="content_area">
+            <section class="furniture_list">
+                <h3 class="hidden">조명 리스트</h3>
+                <ul class="list_content">
+                    <li><a href="#"><img src="images/content2/ontable.jpg" alt="탁상스탠드">
+                            <div>탁상스탠드</div>
+                        </a></li>
+                    <li><a href="#"><img src="images/content2/floorstand.jpg" alt="플로어스탠드">
+                            <div>플로어스탠드</div>
+                        </a></li>
+                    <li><a href="#"><img src="images/content2/led.jpg" alt="LED조명">
+                            <div>LED 조명</div>
+                        </a></li>
+                    <li><a href="#"><img src="images/content2/pendant.jpg" alt="펜던트">
+                            <div>펜던트</div>
+                        </a></li>
+                    <li><a href="#"><img src="images/content2/wall.jpg" alt="벽부착등">
+                            <div>벽부착등</div>
+                        </a></li>
+                    <li><a href="#"><img src="images/content2/kid.jpg" alt="어린이조명">
+                            <div>어린이 조명</div>
+                        </a></li>
+                    <li><a href="#"><img src="images/content2/cabinet.jpg" alt="수납장 조명">
+                            <div>수납장 조명</div>
+                        </a></li>
+                    <li><a href="#"><img src="images/content2/deco.jpg" alt="장식 조명">
+                            <div>장식 조명</div>
+                        </a></li>
+                </ul>
+                <div class="modal_box"></div>
+                <div class="popup">
+                    <img src="images/content2/pd1.jpg" alt="제품이미지">
+                    <div class="txt"></div>
+                    <a href="#" class="close_btn"><i class="fas fa-times"></i></a>
+                </div>
+            </section>
+            <section class="best_product">
+                <div>
+                    <div>
+                        <div class="best_product_header">
+                            <h3>BEST PRODUCT</h3>
+                            <p>스피아노 레르스타 S-1200</p>
+                        </div>
+                        <div class="product_main">
+                            <div>
+                                <ul>
+                                    <li>
+                                        <dl>
+                                            <dt>모던하고 깔끔한 소재</dt>
+                                            <dd>조명을 꺼놓아도 아름다운</dd>
+                                            <dd>인테리어 소품</dd>
+                                        </dl>
+                                    </li>
+                                    <li>
+                                        <dl>
+                                            <dt> 분위기 전환</dt>
+                                            <dd>집안 어디에 놓던지 상관없이</dd>
+                                            <dd>고급스러운 분위기</dd>
+                                        </dl>
+                                    </li>
+                                    <li>
+                                        <dl>
+                                            <dt>디테일의 매력</dt>
+                                            <dd>포근하면서도 은은한</dd>
+                                            <dd>클래식 디자인</dd>
+                                        </dl>
+                                    </li>
+                                    <li>
+                                        <dl>
+                                            <dt>나뭇결이 살아있는 원목</dt>
+                                            <dd>튼튼하고 특유의 아름다운</dd>
+                                            <dd>나뭇결을 연출하는 애쉬원목</dd>
+                                        </dl>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="related_products">
+                    <img src="images/content2/product1.jpg" alt="연관상품">
+                    <div class="related1"></div>
+                    <div class="related2"></div>
+                    <div class="related3"></div>
+                </div>
+                <div class="related_products_detail">
+                    <ul>
+                        <li><img src="images/content2/product_detail1.jpg" alt="레르스타">
+                            <div class="best_modal">
+                                <dl>
+                                    <dt>스피아노 레르스타<span>펜던트등</span></dt>
+                                    <dd>₩ 59,900</dd>
+                                </dl>
+                            </div>
+                        </li>
+                        <li><img src="images/content2/product_detail3.jpg" alt="글로스타드">
+                            <div class="best_modal">
+                                <dl>
+                                    <dt>글로스타드<span>2인용 소파</span></dt>
+                                    <dd>₩ 129,000</dd>
+                                </dl>
+                            </div>
+                        </li>
+                        <li><img src="images/content2/product_detail2.jpg" alt="보리에뷔">
+                            <div class="best_modal">
+                                <dl>
+                                    <dt>보리에뷔<span>커피테이블</span></dt>
+                                    <dd>₩ 129,000</dd>
+                                </dl>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="guide">
+                <h3>초보자를 위한 조명 가이드</h3>
+                <ul>
+                    <li>
+                        <img src="images/content2/guide1.jpg" alt="가이드이미지">
+                        <dl>
+                            <dt>전체 조명: 가장 기본적인 조명</dt>
+                            <dd>첫 번째 카테고리는 말 그대로 방 전체를 위한 조명이에요. 주로 천장에 다는 펜던트등을 활용하죠. 아주 좋은 방법 중 하나는 여러 개의 조명을 다양하게
+                                활용하는 거예요. 이처럼 긴 현관에는 세 개의 펜던트등을 일렬로 달아 시선을 방쪽으로 유도할 수 있어요. 하루 중 시간대별로 밝기에 변화를 주고 싶다면, 무선
+                                LED 전구를 사용하는 것이 효과적이에요.</dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <img src="images/content2/guide3.jpg" alt="가이드이미지">
+                        <dl>
+                            <dt>무드조명: 포근한 느낌의 조명</dt>
+                            <dd>부드럽고 따스한 무드조명은 조명의 화룡점정이라 할 수 있죠. 여러 광원 사이의 빈 공간을 메꿔 더욱 포근하고 아늑한 분위기를 만들어 주니까요. 테이블 조명과
+                                꼬마전구, LED 미니양초 등 종류는 아주 많아요. 무드조명으로는 더할 나위 없어요.</dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <img src="images/content2/guide2.jpg" alt="가이드이미지">
+                        <dl>
+                            <dt>기능성 조명: 적재적소에 활용하기</dt>
+                            <dd>이름에서 알 수 있듯이, 용도별 조명은 집안 곳곳에서 여러 가지 활동을 하는 데 도움을 줘요. 책상이나 자주 사용하는 독서 의자를 밝히고 수집품이 잘 보이게
+                                비추거나 옷장 안의 어둡고 안 보이는 깊은 곳을 구석구석 밝힐 수 있죠. 보세요, 저건 2년 전에 마지막으로 본 스웨터예요! 플로어스탠드와 탁상스탠드도
+                                좋지만, 이 집처럼 여유 공간이 넓지 않을 경우엔 벽과 천장을 활용하는 것도 아주 효과적이에요.</dd>
+                        </dl>
+                    </li>
+                </ul>
+            </section>
+            <section class="other_product">
+                <h3 class="hidden">관련 제품</h3>
+                <div>
+                    <p>고객님들이 선정한 조명 추천 제품</p>
+                    <ul>
+                        <li><img src="images/content2/op1.jpg" alt="람판"><span>람판</span>탁상스탠드</li>
+                        <li><img src="images/content2/op2.jpg" alt="에베달"><span>에베달</span> 탁상스탠드</li>
+                        <li><img src="images/content2/op3.jpg" alt="테르티알"><span>테르티알</span>독서등</li>
+                        <li><img src="images/content2/op4.jpg" alt="프리훌트"><span>프리훌트</span>천장/벽부착등</li>
+                        <li><img src="images/content2/op5.jpg" alt="비르모"><span>비르모</span>독서등</li>
+                    </ul>
+                    <div class="left"><i class="fas fa-chevron-left"></i></div>
+                    <div class="right"><i class="fas fa-chevron-right"></i></div>
+                </div>
+            </section>
+        </div>
+    </article>
+    <? include "../common/sub_footer.html" ?>
+    <script src="common/sub2.js"></script>
+    <script src="js/sub2_content2.js"></script>
+</body>
+
+</html>

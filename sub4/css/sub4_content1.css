@@ -1,0 +1,365 @@
+#policy {
+    margin-bottom: 150px;
+}
+
+#policy>div:first-of-type,
+#strategy>div:first-of-type {
+    width: 2000px;
+    height: 400px;
+    position: relative;
+    top: 0;
+    left: 50%;
+    margin-left: -1000px;
+    overflow: hidden;
+}
+
+#policy>div:first-of-type {
+    background: url(../images/content1/policy.jpg);
+}
+
+#policy .policyinfo>div:first-of-type,
+.strategyinfo>div:first-of-type {
+    margin: 80px 0;
+}
+
+#policy .policyinfo>div:first-of-type>p:first-of-type,
+.strategyinfo>div:first-of-type>p:first-of-type {
+    font-weight: 500;
+    color: black;
+    font-size: 26px;
+}
+
+#policy .management,
+.ecofriendly {
+    background-color: #f8f8f8;
+    width: 2000px;
+    position: relative;
+    top: 0;
+    left: 50%;
+    margin-left: -1000px;
+    overflow: hidden;
+}
+
+#policy .management>div:first-of-type,
+.ecofriendly>div:first-of-type {
+    overflow: hidden;
+    margin: 50px auto 39px;
+    width: 1200px;
+}
+
+#policy .management h4,
+.green h4,
+.ecofriendly h4,
+.carbon h4 {
+    float: left;
+    width: 20%;
+    color: black;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+#policy .management h4 {
+    padding-top: 10px;
+}
+
+#policy .management ul {
+    width: 80%;
+    float: left;
+    padding: 10px 0;
+}
+
+#policy .management li {
+    position: relative;
+    margin: 0 1% 2%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+    padding-left: 20px;
+    background-color: white;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+#policy .management li span {
+    display: block;
+    float: left;
+    margin-right: 20px;
+    font-weight: bold;
+    color: #d2081e;
+}
+
+#policy .green {
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+#policy .green .green_text {
+    float: left;
+    width: 80%;
+}
+
+#policy .green_energy {
+    margin-bottom: 50px;
+}
+
+#policy .green_energy>p:first-of-type,
+#policy .green_eco>p:first-of-type {
+    color: black;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+#policy .green_energy>p:last-of-type,
+#policy .green_eco>p:last-of-type {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+#policy .green_energy ul {
+    overflow: hidden;
+    padding-top: 30px;
+}
+
+#policy .green_energy li {
+    float: left;
+    width: 48%;
+    margin: 1%;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+#policy .green_energy li img {
+    float: left;
+    width: 26%;
+    margin: 2% 2% 2% 6%;
+    padding-top: 10px;
+}
+
+#policy .green_energy li>p {
+    text-align: center;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+#policy .green_energy li>div {
+    float: left;
+    width: 62%;
+    margin: 2%;
+}
+
+#policy .green_list {
+    overflow: hidden;
+}
+
+#policy .green_list>div {
+    float: left;
+    text-align: right;
+    width: 40%;
+    font-size: 18px;
+}
+
+#policy .green_list>div>p:first-of-type {
+    font-weight: 500;
+}
+
+#policy .green_list>div>p:last-of-type {
+    font-weight: 300;
+}
+
+#policy .green_list {
+    overflow: hidden;
+    padding: 5px 0;
+    box-sizing: border-box;
+}
+
+#policy .green_list>p {
+    font-weight: bold;
+    color: #d2081e;
+    font-size: 36px;
+    line-height: 52px;
+    width: 55%;
+    padding-left: 5%;
+    float: left;
+}
+
+#policy .green_energy li:nth-of-type(2) .green_list {
+    margin-top: 30px;
+}
+
+#policy .green_energy li:nth-of-type(2) .green_list>div {
+    width: 30%;
+}
+
+#policy .green_energy li:nth-of-type(2) .green_list>p {
+    color: blue;
+}
+
+#policy .green_eco ul {
+    overflow: hidden;
+    padding-top: 30px;
+}
+
+#policy .green_eco li {
+    float: left;
+    width: 23%;
+    height: 220px;
+    margin: 1%;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #f8f8f8;
+    text-align: center;
+    color: black;
+    font-weight: 300;
+}
+
+#policy .green_eco li img {
+    display: block;
+    width: 45%;
+    margin: 20px auto 40px;
+}
+
+#strategy>div:first-of-type {
+    background: url(../images/content1/strategy.jpg);
+}
+
+#strategy .strategyinfo>div:first-of-type>p:nth-of-type(2),
+.policyinfo>div:first-of-type>p:nth-of-type(2) {
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 300;
+}
+
+#strategy .strategyinfo>div:first-of-type>p:nth-of-type(3),
+.policyinfo>div:first-of-type>p:nth-of-type(3) {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#strategy .ecofriendly>div>div:first-of-type {
+    float: left;
+    width: 80%;
+}
+
+#strategy .eco_low,
+.eco_diff,
+.eco_process {
+    margin-bottom: 80px;
+}
+
+
+#strategy .eco_low p:first-of-type,
+#strategy .eco_process p:first-of-type,
+#strategy .eco_diff p:first-of-type {
+    color: black;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+#strategy .eco_low p:first-of-type span,
+#strategy .eco_process p:first-of-type span,
+#strategy .eco_diff p:first-of-type span {
+    background: linear-gradient(to top, #ffff0046 40%, transparent 40%);
+}
+
+#strategy .eco_low p:last-of-type,
+#strategy .eco_diff p:last-of-type {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+#strategy .eco_process li {
+    float: left;
+    width: 31.33%;
+    margin: 1%;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+#strategy .eco_process li img {
+    display: block;
+    width: 25%;
+    margin: 40px auto;
+}
+
+#strategy .eco_process dd {
+    padding: 20px 30px 30px;
+    text-align: justify;
+    font-weight: 300;
+}
+
+#strategy .eco_process dt {
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+
+#strategy .eco_process dt span {
+    color: #d2081e;
+    font-weight: 500;
+    display: block;
+}
+
+#strategy .eco_process p:last-of-type {
+    font-weight: 300;
+    padding: 2% 1% 0;
+    clear: both;
+}
+
+#strategy .eco_process p:last-of-type span {
+    display: block;
+    font-weight: 500;
+}
+
+#strategy .eco_diff {
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+#strategy .eco_diff>div {
+    float: left;
+    width: 50%;
+}
+
+#strategy .eco_diff img {
+    display: block;
+    float: right;
+    width: 150px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    padding: 10px;
+    margin: 1%;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+#strategy .carbon {
+    margin-top: 80px;
+    margin-bottom: 200px;
+    overflow: hidden;
+}
+
+#strategy .carbon p {
+    clear: both;
+    font-weight: 300;
+    margin-left: 1%;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+#strategy .carbon>div {
+    float: left;
+    width: 80%;
+}
+
+#strategy .carbon img {
+    float: left;
+    width: 48%;
+    margin: 1%;
+    display: block;
+}

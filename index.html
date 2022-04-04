@@ -1,0 +1,255 @@
+<?
+    session_start();
+    @extract($_POST);
+    @extract($_GET);
+    @extract($_SESSION);
+?>
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>한샘</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="common/css/common.css">
+    <link rel="stylesheet" href="maincss/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <script src="common/js/prefixfree.min.js"></script>
+</head>
+
+<body>
+    <? include "./common/main_header.html" ?>
+    <div class="visual">
+        <div class="gallery">
+            <ul>
+                <li class="link1"><img src="images/visual13.jpg" alt='비주얼이미지'><span>한샘은 건강, 화목, 성공이<br> 시작되는 공간을
+                        만듭니다.</span></li>
+                <li class="link2"><img src="images/visual10.jpg" alt='비주얼이미지'><span>환경친화적인 디자인으로 자연과 <br>조화를 이루는 건강한 사회를
+                        만듭니다.</span></li>
+                <li class="link3"><img src="images/visual11.jpg" alt='비주얼이미지'><span>주거환경 개선을 통해<br>인류발전에 공헌합니다.</span>
+                </li>
+                <li class="link4"><img src="images/visual15.jpg" alt='비주얼이미지'><span>동북아 지역의 연관성을 연구하여<br>시대를 선도할 디자인을
+                        창조합니다.</span></li>
+                <li class="link5"><img src="images/visual9.jpg" alt='비주얼이미지'><span>철저한 품질 관리를 통해<br>최고의 제품을
+                        제공합니다.</span></li>
+            </ul>
+        </div>
+        <div class="dock">
+            <span class="mbutton  btn1"></span>
+            <span class="mbutton  btn2"></span>
+            <span class="mbutton  btn3"></span>
+            <span class="mbutton  btn4"></span>
+            <span class="mbutton  btn5"></span>
+            <span class="ps play"><i class="fas fa-play"></i></span>
+            <span class="ps pause"><i class="fas fa-pause"></i></span>
+        </div>
+        <div class='btn_box'>
+            <span class="btn btnLeft"><img src="images/prevbtn.png" alt=""></span>
+            <span class="btn btnRight"><img src="images/nextbtn.png" alt=""></span>
+        </div>
+    </div>
+    <article id="content">
+        <h2 class="hidden">본문컨텐츠영역</h2>
+        <section class="introduction">
+            <h3>HANSSEM</h3>
+            <p>한샘은 우리나라 주거 환경 변화를 주도합니다</p>
+            <ul>
+                <li>
+                    <a href="sub1/sub1_1.html">
+                        <img src="images/vision.jpg" alt="Vision">
+                        <dl>
+                            <dt>VISION</dt>
+                            <dd>건강, 화목, 성공이 시작되는 공간을 만듭니다</dd>
+                        </dl>
+                        <div class="plus">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="sub1/sub1_2.html">
+                        <img src="images/business.jpg" alt="Business">
+                        <dl>
+                            <dt>BUSINESS</dt>
+                            <dd>한샘은 인테리어 아이템을 패키지 설계를 통해 제공합니다</dd>
+                        </dl>
+                        <div class="plus">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="sub1/sub1_4.html">
+                        <img src="images/history.jpg" alt="History">
+                        <dl>
+                            <dt>HISTORY</dt>
+                            <dd>1970년 부엌가구 전문 회사로 출발한 한샘입니다</dd>
+                        </dl>
+                        <div class="plus">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="sub1/sub1_2.html#design">
+                        <img src="images/design.jpg" alt="Design">
+                        <dl>
+                            <dt>DESIGN</dt>
+                            <dd>한샘은 환경친화적 디자인으로 자원의 낭비를 줄입니다</dd>
+                        </dl>
+                        <div class="plus">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <section class="agencies">
+            <div class="agencies_inner">
+                <h3>AGENCIES</h3>
+                <p>한샘의 성장과 비전에 발맞추어 함께 성장하는 대리점을 소개합니다 </p>
+                <div>
+                    <ul>
+                        <li>
+                            <div class="ag_title">
+                                <p>Kitchen Design</p>
+                            </div>
+                            <div class="ag_main">
+                                <p>Kitchen Design</p>
+                                <p>시스템 키친, 욕실, 건자재까지 원-스톱으로 상담 받을 수 있는<br> 토탈 홈 인테리어 전문매장입니다.</p>
+                                <a href="sub3/sub3_1.html" class="more">
+                                    <div>more<i class="fas fa-angle-right"></i></div>
+                                </a>
+                            </div>
+                            <span class="ag_btn"></span>
+                        </li>
+                        <li>
+                            <div class="ag_title">
+                                <p>Interior Coordination</p>
+                            </div>
+                            <div class="ag_main">
+                                <p>Interior Coordination</p>
+                                <p>상권 내 타 브랜드보다 월등한 매장경쟁력과 상품경쟁력, <br>영업경쟁력으로 고객을 감동시키는 지역대표 홈 인테리어 전문매장입니다.</p>
+                                <a href="sub3/sub3_2.html" class="more">
+                                    <div>more<i class="fas fa-angle-right"></i></div>
+                                </a>
+                            </div>
+                            <span class="ag_btn"></span>
+                        </li>
+                        <li>
+                            <div class="ag_title">
+                                <p>Rehaus Design</p>
+                            </div>
+                            <div class="ag_main">
+                                <p>Rehaus Design</p>
+                                <p>인테리어 리모델링에 필요한 최고의 한샘 제품과 서비스를 상담<br>받을 수 있는 토탈 홈 인테리어 전문매장입니다. </p>
+                                <a href="sub3/sub3_3.html" class="more">
+                                    <div>more<i class="fas fa-angle-right"></i></div>
+                                </a>
+                            </div>
+                            <span class="ag_btn"></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="products">
+            <h3><span>PRODUCTS</span></h3>
+            <div>
+                <ul>
+                    <li><a href="sub2/sub2_1.html"><img src="sub2/images/content1/bed.jpg" alt="가구">
+                            <p><span>가구</span>
+                                한샘의 침대는 부드러운 직조 패브릭으로 씌워져 있어 침실에 아늑한 느낌을 더해줍니다.</p>
+                        </a></li>
+                    <li><a href="sub2/sub2_2.html"><img src="sub2/images/content2/ontable.jpg" alt="조명">
+                            <p><span>조명</span>
+                                한샘의 조명은 은은하고 부드러운 불빛으로 방안을 가득 채우고 통일감 있는 인테리어를 연출합니다.</p>
+                        </a></li>
+                    <li><a href="sub2/sub2_3.html"><img src="sub2/images/content3/basin.jpg" alt="바스">
+                            <p><span>바스</span>
+                                한샘의 세면대는 선반 공간이 넉넉할 뿐 아니라 뒤쪽에 배관 자리가 있어 효율적으로 공간을 사용할 수 있습니다.</p>
+                        </a></li>
+                    <li><a href="sub2/sub2_4.html"><img src="sub2/images/content4/scented.jpg" alt="홈데코">
+                            <p><span>홈데코</span>
+                                한샘의 장식 향스틱을 꽃병에 꽂아 두면 현관, 욕실, 침실 등의 공간이 편안하고 쾌적한 분위기로 가득 찹니다. </p>
+                        </a></li>
+                </ul>
+            </div>
+            <div class="pro_btn left"><i class="fas fa-chevron-left"></i></div>
+            <div class="pro_btn right"><i class="fas fa-chevron-right"></i></div>
+            <a href="sub2/sub2_1.html" class="more">
+                <div>more<i class="fas fa-angle-right"></i></div>
+            </a>
+        </section>
+        <section class="news">
+            <div class="news_inner">
+                <h3><span>NEWS</span></h3>
+                <? include "./lib/func.php" ?>
+                <ul>
+                    <? include latest_article(3, 22); ?>
+                </ul>
+                <a href="newsboard/list.php" class=" more">
+                    <div>more<i class="fas fa-angle-right"></i></div>
+                </a>
+            </div>
+        </section>
+        <section class="media">
+            <div class="media_text">
+                <h3>MEDIA</h3>
+                <p><span>한샘의 다양한</span> 영상컨텐츠를 만나보세요</p>
+            </div>
+            <div class="media_box">
+
+            </div>
+            <ul class="remote">
+                <li><a href="">
+                        <div><i class="fas fa-angle-left"></i></div>
+                    </a></li>
+                <li><a href="">
+                        <div><i class="fas fa-angle-right"></i></div>
+                    </a></li>
+            </ul>
+            <a href="sub5/sub5_2.html" class="more">
+                <div>more<i class="fas fa-angle-right"></i></div>
+            </a>
+        </section>
+        <section class="customer">
+            <div class="customer_inner">
+                <h3><span>CUSTOMER CENTER</span></h3>
+                <p>궁금한 것이 있나요?</p>
+                <a href="sub6/sub6_3.html" class="more">
+                    <div>문의하기<i class="fas fa-angle-right"></i></div>
+                </a>
+            </div>
+        </section>
+    </article>
+    <? include "./common/main_footer.html" ?>
+    <!-- 공지사항 팝업 -->
+    <div id="showimage" style="z-index:99;position:absolute;width:322px;right:100px;top:150px;">
+        <script>
+            function closeWin() {
+                var chk = document.getElementById('Notice')
+                if (chk.checked) {
+                    setCookie("Notice", "done", 1); //1이란 숫자는 1일간 안보임을 뜻합니다. 날짜는 자신에 맞게 수정하세요
+                }
+            }
+            if (getCookie("Notice") == "done") {
+                hidebox();
+            }
+        </script>
+        <div>
+            <img src="popup/pop.png"
+                alt="본 사이트는 상업적 목적이 아닌 개인 포트폴리오 용도로 만들어졌습니다. 홈페이지의 일부 내용과 기타 이미지 등은 그 출처가 따로 있음을 밝힙니다." />
+        </div>
+        <div style="font-size:12px;text-align:center;color:white;">
+            <input type="checkbox" name="Notice" id="Notice" value="" title="오늘은 이창을 열지 않음 선택상자"><label for="Notice">오늘은
+                이 창을 열지 않음</label>
+            <a href="#" style="color:rgb(228, 228, 228);" onclick="closeWin();hidebox();return false;"> [close] </a>
+        </div>
+    </div>
+    <script src="common/js/jquery.easing.1.3.js"></script>
+</body>
+
+</html>

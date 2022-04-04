@@ -1,0 +1,338 @@
+#job>div:first-of-type,
+#process>div:first-of-type,
+.core {
+    width: 2000px;
+    height: 400px;
+    position: relative;
+    top: 0;
+    left: 50%;
+    margin-left: -1000px;
+    overflow: hidden;
+}
+
+#job>div:first-of-type {
+    background: url(../images/content1/job.jpg);
+}
+
+#job .jobinfo {
+    margin: 100px 0;
+}
+
+#job .jobinfo dt,
+.jobarea>p,
+.core>div>p {
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-size: 38px;
+    color: black;
+    position: relative;
+    text-align: center;
+}
+
+#job .jobinfo dt {
+    display: inline-block;
+    vertical-align: super;
+    width: 446px;
+}
+
+#job .jobinfo span {
+    font-size: 28px;
+}
+
+/* #job .jobinfo dt::after , .jobarea>p::after, .core>p::after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: -12px;
+    top: 10px;
+    background-color: #f47320;
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+}
+ */
+
+
+#job .jobinfo dd {
+    font-size: 22px;
+    line-height: 42px;
+    font-weight: 300;
+    display: inline-block;
+    width: 750px;
+    text-align: justify;
+}
+
+#job .jobarea {
+    margin: 100px 0 150px;
+}
+
+#job .jobarea ul {
+    overflow: hidden;
+    padding-top: 35px;
+}
+
+#job .jobarea li {
+    float: left;
+    width: 280px;
+    height: 280px;
+    margin: 10px;
+}
+
+#job .jobarea li img {
+    display: block;
+    width: 25%;
+    margin: 0 auto 40px;
+}
+
+#job .jobarea dl {
+    margin-top: 20px;
+}
+
+#job .jobarea dt {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    color: black;
+    padding: 5px 0 25px;
+}
+
+#job .jobarea dd {
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 0 30px;
+    line-height: 30px;
+}
+
+
+
+#job .core {
+    background-color: #f8f8f8;
+    height: auto;
+    padding-top: 100px;
+}
+
+#job .core>div:first-of-type {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#job .core ul {
+    overflow: hidden;
+    position: relative;
+    width: 990px;
+    margin: 0 auto;
+}
+
+#job .core li {
+    float: left;
+    width: 230px;
+    height: 230px;
+    border-radius: 100%;
+    box-sizing: border-box;
+    margin: 50px;
+    background-color: white;
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.2);
+}
+
+#job .core li:nth-of-type(1) {
+    border: 10px solid #ffaf0f;
+}
+
+#job .core li:nth-of-type(2) {
+    border: 10px solid #ff7f12;
+}
+
+#job .core li:nth-of-type(3) {
+    border: 10px solid #ff5521
+}
+
+#job .core li:nth-of-type(4) {
+    position: relative;
+    top: -135px;
+    left: 165px;
+    border: 10px solid #ff960c;
+    margin: 0 50px;
+}
+
+#job .core li:nth-of-type(5) {
+    position: relative;
+    top: -135px;
+    left: 165px;
+    border: 10px solid #ff7221;
+    margin: 0 50px;
+}
+
+#job .core dl {
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+#job .core dt {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    margin: 20px 0 10px;
+}
+
+#job .core dd {
+    text-align: justify;
+    font-weight: 300;
+    color: #666;
+}
+
+
+#process>div:first-of-type {
+    background: url(../images/content1/process.jpg);
+}
+
+#process .oneyear {
+    margin: 100px 0;
+}
+
+#process div>p {
+    font-weight: bold;
+    color: black;
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+#process .oneyear ul {
+    overflow: hidden;
+    padding-top: 80px;
+}
+
+#process .oneyear li {
+    float: left;
+    width: 270px;
+    height: 270px;
+    position: relative;
+    margin: 15px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+}
+
+#process .oneyear li div {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: #d2081e;
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+    border-radius: 100%;
+    line-height: 48px;
+    margin: -25px auto 0;
+}
+
+#process .oneyear dl {
+    padding: 30px;
+    margin-top: 10px;
+}
+
+
+#process .oneyear dt {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0 0 35px;
+    color: black;
+}
+
+#process .oneyear dd {
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+
+#process .program {
+    width: 2000px;
+    position: relative;
+    top: 0;
+    left: 50%;
+    margin-left: -1000px;
+    background-color: #f8f8f8;
+    padding: 100px 0;
+}
+
+#process .program>div {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#process .program ul {
+    overflow: hidden;
+    padding-top: 50px;
+}
+
+#process .program li {
+    float: left;
+    width: 360px;
+    position: relative;
+    background-color: white;
+    margin: 20px;
+    padding: 30px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.055);
+    text-align: center;
+}
+
+#process .program li img {
+    display: block;
+    width: 70px;
+    margin: 30px auto 40px;
+}
+
+#process .program dl {
+    margin-bottom: 50px;
+}
+
+#process .program dt {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    margin: 20px 0 50px;
+}
+
+#process .program dd {
+    font-size: 19px;
+    font-weight: 300;
+    margin: 20px 0;
+}
+
+#process .program dd:last-of-type {
+    font-weight: 500;
+}
+
+.register {
+    display: block;
+    width: 180px;
+    height: 45px;
+    border-radius: 30px;
+    border: 2px solid #d2081e;
+    box-sizing: border-box;
+    color: white;
+    font-size: 19px;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 40px;
+    transition: all .2s ease-in-out;
+    background-color: #d2081e;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.register i {
+    margin-left: 20px;
+}
+
+.register:hover {
+    color: #d2081e;
+    background-color: white;
+}

@@ -1,0 +1,259 @@
+.visual {
+  background-image: url(../images/sub3/content2/visual.jpg);
+}
+
+#content .introduction img {
+  width: 100%;
+}
+
+#content .con_nav>p {
+  font-size: 1.3rem;
+  color: black;
+  text-align: justify;
+  width: 80%;
+  padding: 50px 0 35px;
+  margin: 0 auto;
+}
+
+#content .con_nav>p span {
+  font-weight: bold;
+  font-size: 1.5rem;
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#content .core p,
+.jobarea>p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  margin: 40px 0;
+}
+
+#content .core p span,
+.jobarea>p span,
+.oneyear>p span,
+.program>p span {
+  background: linear-gradient(to top, #080bd231 40%, transparent 40%) 0 -3px;
+}
+
+#content .core {
+  padding-bottom: 30px;
+}
+
+#content .core ul li {
+  overflow: hidden;
+  margin-bottom: 20px;
+  padding: 10px 0;
+}
+
+#content .core ul li img {
+  float: left;
+  border-radius: 0 15px 15px 0;
+  display: block;
+  width: 45%;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+#content .core ul li:nth-of-type(2) img {
+  float: right;
+  border-radius: 15px 0 0 15px;
+}
+
+
+#content .core dl {
+  box-sizing: border-box;
+  padding: 0 4.5%;
+  float: left;
+  width: 55%;
+}
+
+#content .core dt {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin: 20px 0 10px;
+}
+
+#content .core dd {
+  text-align: justify;
+  color: #666;
+}
+
+#content .jobarea {
+  margin-bottom: 70px;
+}
+
+#content .jobarea ul {
+  width: 91%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#content .jobarea ul img {
+  width: 70%;
+  border-radius: 100%;
+  display: block;
+  margin: 10px auto;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+#content .jobarea li {
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+#content .jobarea dl {
+  padding: 5px 5%;
+  text-align: justify;
+}
+
+#content .jobarea dt {
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: center;
+  color: black;
+  margin: 5px 0 10px;
+}
+
+#content .jobarea dd {
+  height: 80px;
+}
+
+
+
+
+
+
+
+#content .oneyear>p,
+.program>p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  margin: 30px 0;
+}
+
+
+
+#content .oneyear ul {
+  padding: 15px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#content .oneyear li {
+  position: relative;
+  margin: 10px auto 40px;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+
+#content .oneyear li div {
+  position: relative;
+  top: -15px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  background-color: #0033a1;
+  color: white;
+  font-weight: bold;
+  font-size: 1.3rem;
+  border-radius: 100%;
+  line-height: 30px;
+  margin: 0 auto;
+}
+
+#content .oneyear dl {
+  padding: 0 9% 30px;
+  margin-top: 10px;
+}
+
+#content .oneyear dt {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin: 0 0 15px;
+  color: black;
+}
+
+#content .oneyear dd {
+  text-align: center;
+  font-size: 1.1rem;
+  line-height: 2rem;
+}
+
+#content .program {
+  margin-bottom: 70px;
+}
+
+
+#content .program .swiper-slide {
+  padding-bottom: 40px;
+}
+
+#content .program .swiper-slide>div {
+  width: 80%;
+  border-radius: 15px;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+#content .program img {
+  width: 20%;
+  display: block;
+  padding-top: 20px;
+  margin: 10px auto 0;
+}
+
+#content .program dl {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#content .program dt {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: black;
+  margin: 20px 0 40px;
+}
+
+#content .program dd {
+  font-size: 1.1rem;
+  margin: 15px 0;
+}
+
+#content .program dd:last-of-type {
+  font-weight: 500;
+}
+
+#content a.register {
+  display: block;
+  width: 140px;
+  height: 35px;
+  border-radius: 30px;
+  border: 2px solid #d2081e;
+  box-sizing: border-box;
+  color: white;
+  font-size: 1.1rem;
+  margin: 30px auto 20px;
+  text-align: center;
+  line-height: 28px;
+  transition: all .2s ease-in-out;
+  background-color: #d2081e;
+}
+
+.register i {
+  margin-left: 20px;
+}
+
+#content .swiper-pagination-bullet-active {
+  background-color: black;
+}

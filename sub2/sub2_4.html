@@ -1,0 +1,159 @@
+<?
+    session_start();
+    @extract($_POST);
+    @extract($_GET);
+    @extract($_SESSION);
+?>
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>제품소개 - 홈데코</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub2common.css">
+    <link rel="stylesheet" href="css/sub2_content4.css">
+    <script src="../common/js/prefixfree.min.js"></script>
+</head>
+
+<body>
+    <? include "../common/sub_header.html" ?>
+    <div class="visual">
+        <img src="./common/images/visual.jpg" alt="visual">
+        <div>
+            <div>
+                <h3>제품소개</h3>
+                <span>Product Information</span>
+            </div>
+        </div>
+    </div>
+    <div class="sub_menu">
+        <ul>
+            <li><a href="./sub2_1.html">가구</a></li>
+            <li><a href="./sub2_2.html">조명</a></li>
+            <li><a href="./sub2_3.html">바스</a></li>
+            <li class="current"><a href="./sub2_4.html">홈데코</a></li>
+        </ul>
+    </div>
+    <article id="content">
+        <div class="title_area">
+            <div>
+                <div class="line_map">
+                    <i class="fas fa-home"><span class="hidden">HOME</span></i> &gt; 제품소개 &gt; <strong>홈데코</strong>
+                </div>
+                <h2>홈데코</h2>
+            </div>
+        </div>
+        <div class="content_area">
+            <section class="furniture_list">
+                <h3 class="hidden">홈데코 리스트</h3>
+                <ul class="list_content">
+                    <li><a href="#"><img src="images/content4/basket.jpg" alt="바구니">
+                            <div>바구니</div>
+                        </a></li>
+                    <li><a href="#"><img src="images/content4/scented.jpg" alt="디퓨저">
+                            <div>디퓨저</div>
+                        </a></li>
+                    <li><a href="#"><img src="images/content4/clock.jpg" alt="시계">
+                            <div>시계</div>
+                        </a></li>
+                    <li><a href="#"><img src="images/content4/frame.jpg" alt="액자">
+                            <div>액자</div>
+                        </a></li>
+                    <li><a href="#"><img src="images/content4/lantern.jpg" alt="랜턴">
+                            <div>랜턴</div>
+                        </a></li>
+                    <li><a href="#"><img src="images/content4/tray.jpg" alt="트레이">
+                            <div>트레이</div>
+                        </a></li>
+                    <li><a href="#"><img src="images/content4/decoration.jpg" alt="데코레이션">
+                            <div>데코레이션</div>
+                        </a></li>
+                    <li><a href="#"><img src="images/content4/pot.jpg" alt="화분">
+                            <div>화분</div>
+                        </a></li>
+                </ul>
+                <div class="modal_box"></div>
+                <div class="popup">
+                    <img src="images/content4/pd1.jpg" alt="제품이미지">
+                    <div class="txt"></div>
+                    <a href="#" class="close_btn"><i class="fas fa-times"></i></a>
+                </div>
+            </section>
+            <section class="best_product">
+                <div>
+                    <div>
+                        <div class="best_product_header">
+                            <h3>BEST PRODUCT</h3>
+                            <p>빈테르 2021 실내 화초 세트</p>
+                        </div>
+                        <div class="product_main">
+                            <ul>
+                                <li>
+                                    <a href="#"><img src="images/content4/product1.jpg" alt="유칼립투스">핑크 유칼립투스</a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/content4/product2.jpg" alt="스위트피">화이트 스위트피</a>
+                                </li>
+                                <li>
+                                    <a href="#"><img src="images/content4/product3.jpg" alt="아스파라거스">아스파라거스</a>
+                                </li>
+                            </ul>
+                            <div class="best_selected">
+                                <img src="images/content4/product1_1.jpg" class="bg1" alt="제품상세이미지">
+                                <img src="images/content4/product1_2.jpg" class="bg2" alt="제품상세이미지">
+                                <dl>
+                                    <dt>유칼립투스</dt>
+                                    <dd>유칼립투스는 이국적이면서 실내공기정화의 대표적인 식물입니다. 햇빛이 어느정도 들어오는 밝은 곳에 두면 잎의 색깔이 더 선명하고 아름답습니다.
+                                        물을 좋아하는 식물이므로 겉흙이 마를때 흠뻑 주시면 됩니다.</dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="guide">
+                <h3>한샘 데코로 벽을 장식하는 방법</h3>
+                <ul>
+                    <li><a href="#"><img src="images/content4/guide1.jpg" alt="guide1"></a></li>
+                    <li><a href="#"><img src="images/content4/guide2.jpg" alt="guide2"></a></li>
+                    <li><a href="#"><img src="images/content4/guide3.jpg" alt="guide3"></a></li>
+                    <li><a href="#"><img src="images/content4/guide4.jpg" alt="guide4"></a></li>
+                    <li><a href="#"><img src="images/content4/guide5.jpg" alt="guide5"></a></li>
+                    <li><a href="#"><img src="images/content4/guide6.jpg" alt="guide6"></a></li>
+                </ul>
+                <div>
+                    <img src="images/content4/guide1_1.jpg" alt="가이드상세이미지">
+                    <dl>
+                        <dt><span>1</span>나만의 무드보드 만들기</dt>
+                        <dd>메모판을 활용해서 계절에 맞게 장식을 바꾸거나 그때그때 떠오르는 아이디어로 장식할 수 있습니다. 꾸준하게 사랑받는 스쿠루프 벽부착등과 같은 분위기 있는 조명을 더하면
+                            인더스트리얼 감각을 더할 수 있어요.</dd>
+                    </dl>
+                </div>
+            </section>
+            <section class="other_product">
+                <h3 class="hidden">관련 제품</h3>
+                <div>
+                    <p>고객님들이 선정한 홈데코 추천 제품</p>
+                    <ul>
+                        <li><img src="images/content4/op1.jpg" alt="펠반드"><span>펠반드</span>미니양초홀더</li>
+                        <li><img src="images/content4/op2.jpg" alt="고이베르"><span>고이베르</span> 화분+스탠드</li>
+                        <li><img src="images/content4/op3.jpg" alt="스코디스"><span>스코디스</span>선반</li>
+                        <li><img src="images/content4/op4.jpg" alt="예스탈타"><span>예스탈타</span>인체모형</li>
+                        <li><img src="images/content4/op5.jpg" alt="빈테르 2021"><span>빈테르 2021</span>장식염소</li>
+                    </ul>
+                    <div class="left"><i class="fas fa-chevron-left"></i></div>
+                    <div class="right"><i class="fas fa-chevron-right"></i></div>
+                </div>
+            </section>
+        </div>
+    </article>
+    <? include "../common/sub_footer.html" ?>
+    <script src="common/sub2.js"></script>
+    <script src="js/sub2_content4.js"></script>
+</body>
+
+</html>

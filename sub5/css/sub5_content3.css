@@ -1,0 +1,88 @@
+#content .content_area {
+  margin-top: 100px;
+}
+
+#content .content_area>ul {
+  overflow: hidden;
+  width: 900px;
+  margin: 0 auto;
+}
+
+#content .content_area>ul li {
+  float: left;
+  width: 33.33%;
+  padding: 10px 0;
+}
+
+#content .content_area>ul li a {
+  display: block;
+  padding: 10px;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  margin: 0 40px;
+}
+
+#content .content_area>ul li:nth-of-type(1) a {
+  padding: 15px 10px 5px;
+  background-color: black;
+}
+
+#content .content_area>ul li img {
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+#content .sns ul {
+  overflow: hidden;
+  margin: 50px 30px 200px;
+}
+
+#content .sns ul li {
+  width: 300px;
+  margin: 40px;
+  float: left;
+  height: 390px;
+  transition: .2s ease-in-out all;
+}
+
+#content .sns ul li i {
+  color: black;
+  position: absolute;
+  top: 5px;
+  right: 0;
+  opacity: 0;
+  transition: .2s linear all;
+}
+
+#content .sns ul li img {
+  border-radius: 20px;
+  display: block;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15);
+
+}
+
+#content .sns ul li:hover {
+  transform: scale(1.03);
+}
+
+#content .sns ul li:hover i {
+  opacity: 1;
+}
+
+#content .sns ul li dl {
+  margin-top: 20px;
+}
+
+#content .sns ul li dt {
+  font-weight: 500;
+  font-size: 18px;
+  color: black;
+  margin-bottom: 5px;
+  position: relative;
+}
+
+#content .sns ul li dd {
+  font-weight: 300;
+}

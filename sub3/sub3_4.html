@@ -1,0 +1,139 @@
+<?
+    session_start();
+    @extract($_POST);
+    @extract($_GET);
+    @extract($_SESSION);
+?>
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>대리점안내 - 교육 신청</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub3common.css">
+    <link rel="stylesheet" href="css/sub3_content4.css">
+    <script src="../common/js/prefixfree.min.js"></script>
+</head>
+
+<body>
+    <? include "../common/sub_header.html" ?>
+    <div class="visual">
+        <img src="./common/images/visual.jpg" alt="visual">
+        <div>
+            <div>
+                <h3>대리점안내</h3>
+                <span>About Agency</span>
+            </div>
+        </div>
+    </div>
+    <div class="sub_menu">
+        <ul>
+            <li><a href="sub3_1.html">키친 &amp; 바스</a></li>
+            <li><a href="sub3_2.html">인테리어</a></li>
+            <li><a href="sub3_3.html">리하우스</a></li>
+            <li class="current"><a href="sub3_4.html">교육 신청</a></li>
+        </ul>
+    </div>
+    <article id="content">
+        <div class="title_area">
+            <div class="line_map">
+                <i class="fas fa-home"><span class="hidden">HOME</span></i> &gt; 대리점안내 &gt; <strong>교육 신청</strong>
+            </div>
+            <h2>교육 신청</h2>
+            <p>한샘의 대리점에 도움이 되는 교육들을 신청하실 수 있습니다.</p>
+        </div>
+        <div class="content_area">
+            <div class="mail_content">
+                <form name="sentMessage" id="contactForm" novalidate>
+                    <div class="row control-group">
+                        <div class="form-group col-xs-12 floating-label-form-group controls">
+                            <label for="name">신청자 이름</label>
+                            <input type="text" class="form-control" placeholder="이름" id="name" required
+                                data-validation-required-message="<img src='images/content4/cancel.png' alt='error' height='16px'>이름을 입력해주세요.">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="control-group">
+                            <div class="form-group col-xs-6 floating-label-form-group controls">
+                                <label for="education">신청하실 교육</label>
+                                <select id="education" class="form-control" required
+                                    data-validation-required-message="<img src='images/content4/cancel.png' alt='error' height='16px'>교육을 선택해주세요.">
+                                    <option value="">교육 선택</option>
+                                    <optgroup label="키친 & 바스">
+                                        <option value="신입KD 입문교육">신입KD 입문교육</option>
+                                        <option value="OJT 및 보수교육">OJT 및 보수교육</option>
+                                        <option value="전담사원 교육">전담사원 교육</option>
+                                    </optgroup>
+                                    <optgroup label="인테리어">
+                                        <option value="신입IC 입문교육">신입IC 입문교육</option>
+                                        <option value="신입IC 입문OJT">신입IC 입문OJT</option>
+                                        <option value="전문가 과정">전문가 과정</option>
+                                    </optgroup>
+                                    <optgroup label="리하우스">
+                                        <option value="신입 RD 입문">신입 RD 입문</option>
+                                        <option value="스탠다드">스탠다드</option>
+                                        <option value="마스터">마스터</option>
+                                    </optgroup>
+                                </select>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group col-xs-6 floating-label-form-group controls">
+                                <label for="date">교육 희망일</label>
+                                <input type="date" class="form-control" id="date" required
+                                    data-validation-required-message="<img src='images/content4/cancel.png' alt='error' height='16px'>날짜를 선택해주세요.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="control-group">
+                            <div class="form-group col-xs-6 floating-label-form-group controls">
+                                <label for="email">이메일</label>
+                                <input type="email" class="form-control" placeholder="이메일" id="email" required
+                                    data-validation-required-message="<img src='images/content4/cancel.png' alt='error' height='16px'>이메일을 입력해주세요.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class=" control-group">
+                            <div class="form-group col-xs-6 floating-label-form-group controls">
+                                <label for="phone">연락처</label>
+                                <input type="tel" class="form-control" placeholder="연락처" id="phone" required
+                                    data-validation-required-message="<img src='images/content4/cancel.png' alt='error' height='16px'>연락처를 입력해주세요.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row control-group ask">
+                        <div class="form-group col-xs-12 floating-label-form-group controls">
+                            <label for="message">문의사항</label>
+                            <textarea rows="7" class="form-control" placeholder="추가 문의사항이 있으시다면 적어주세요."
+                                id="message"></textarea>
+                        </div>
+                    </div>
+                    <br>
+                    <div id="success"></div>
+                    <div class="row">
+                        <div class="form-group col-xs-12 send">
+                            <button type="submit" class="btn btn-success btn-lg">신청하기</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </article>
+    <? include "../common/sub_footer.html" ?>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="../common/js/bootstrap.min.js"></script>
+    <script src="js/contact_me.js"></script>
+    <script src="js/jqBootstrapValidation.js"></script>
+</body>
+
+</html>

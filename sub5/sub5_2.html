@@ -1,0 +1,57 @@
+<?
+    session_start();
+    @extract($_POST);
+    @extract($_GET);
+    @extract($_SESSION);
+?>
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>미디어센터 - SNS</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub5common.css">
+    <link rel="stylesheet" href="css/sub5_content2.css">
+    <script src="../common/js/prefixfree.min.js"></script>
+</head>
+
+<body>
+    <? include "../common/sub_header.html" ?>
+    <div class="visual">
+        <img src="./common/images/visual.jpg" alt="visual">
+        <div>
+            <div>
+                <h3>미디어센터</h3>
+                <span>Media Center</span>
+            </div>
+        </div>
+    </div>
+    <div class="sub_menu">
+        <ul>
+            <li><a href="../newsboard/list.php">보도자료</a></li>
+            <li class="current"><a href="sub5_2.html">영상</a></li>
+            <li><a href="sub5_3.html">SNS</a></li>
+        </ul>
+    </div>
+    <article id="content">
+        <div class="title_area">
+            <div class="line_map">
+                <i class="fas fa-home"><span class="hidden">HOME</span></i> &gt; 미디어센터 &gt; <strong>영상</strong>
+            </div>
+            <h2>영상</h2>
+            <p>한샘의 광고 및 영상자료를 보실 수 있습니다</p>
+        </div>
+        <div class="content_area">
+            <div class="main_box" id="tube"></div>
+            <div class="youtube_list"></div>
+        </div>
+    </article>
+    <? include "../common/sub_footer.html" ?>
+    <script src="js/sub5_content2.js"></script>
+</body>
+
+</html>

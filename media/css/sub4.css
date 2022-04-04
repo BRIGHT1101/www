@@ -1,0 +1,147 @@
+/* 와이드 pc  */
+
+#content {
+   margin-top: 100vh;
+   position: relative;
+}
+
+#wrap .visual {
+   position: fixed;
+   display: flex;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100vh;
+   background-image: url("../images/sub4/visual3.jpg");
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   align-items: center;
+   justify-content: center;
+}
+
+#wrap .visual_text {
+   color: white;
+   display: none;
+   z-index: 10;
+}
+
+#wrap .visual_text h2 {
+   font-family: 'Nothing You Could Do', cursive;
+   font-size: 5.5vw;
+   font-weight: bold;
+   text-shadow: 0 0 30px rgba(0, 0, 0, 0.527);
+   text-align: center;
+}
+
+#wrap .visual_text p {
+   font-size: 1.5vw;
+   text-align: center;
+}
+
+#content .magazine {
+   background: linear-gradient(transparent, black 10% 80%, transparent);
+   padding: 10vw 1%;
+}
+
+#content .magazine_list {
+   column-count: 6;
+   column-gap: 5px;
+}
+
+#content .magazine_list>div {
+   display: inline-block;
+   width: 100%;
+   margin-bottom: 5px;
+   border-radius: 15px;
+   position: relative;
+   overflow: hidden;
+   filter: saturate(60%);
+   transition: .2s ease-in-out all;
+}
+
+#content .magazine_list>div img{
+   display: block;
+   width: 100%;
+   transition: .2s ease-in-out all;
+}
+
+#content .magazine_list>div::before {
+   content: "";
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   box-shadow: inset 0 0 30px rgb(0, 0, 0);
+   transition: .2s ease-in-out all;
+}
+
+#content .magazine_list>div p {
+   position: absolute;
+   bottom: 5px;
+   color: white;
+   left: 50%;
+   transform: translateX(-50%);
+   text-align: center;
+   font-weight: bold;
+   text-shadow: 0 0 10px black;
+}
+
+#content .magazine_list>div:hover::before {
+   box-shadow: none;
+}
+
+#content .magazine_list>div:hover {
+   filter: saturate(120%);
+}
+
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+   #content .magazine_list {
+      column-count: 5;
+   }
+   #content .magazine {
+      background: linear-gradient(transparent, black 10% 85%, transparent);
+   }
+
+   
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+   #content .magazine_list {
+      column-count: 4;
+   }
+
+   #content .magazine {
+      background: linear-gradient(transparent, black 5% 85%, transparent);
+   }
+
+   }
+
+
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+   #content .magazine_list {
+      column-count: 3;
+   }
+
+   #content .magazine {
+      background: linear-gradient(transparent, black 3% 92%, transparent);
+   }
+}
+
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+   #content .magazine_list {
+      column-count: 2;
+   }
+   #content .magazine {
+      background: linear-gradient(transparent, black 1.5% 96%,transparent);
+   }
+}
+
+
+

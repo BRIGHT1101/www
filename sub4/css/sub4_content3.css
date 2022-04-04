@@ -1,0 +1,327 @@
+#grow {
+    margin-bottom: 150px;
+}
+
+#grow>div:first-of-type,
+#value>div:first-of-type {
+    width: 2000px;
+    height: 400px;
+    position: relative;
+    top: 0;
+    left: 50%;
+    margin-left: -1000px;
+    overflow: hidden;
+}
+
+#grow>div:first-of-type {
+    background: url(../images/content3/growth.jpg);
+}
+
+#grow .growinfo>div:first-of-type,
+.valueinfo>div:first-of-type {
+    margin: 80px 0;
+}
+
+#grow .growinfo>div:first-of-type>p:first-of-type,
+.valueinfo>div:first-of-type>p:first-of-type {
+    font-weight: 500;
+    color: black;
+    font-size: 26px;
+}
+
+#grow .growth_operate,
+.ecofriendly,
+.human_outer {
+    background-color: #f8f8f8;
+    width: 2000px;
+    position: relative;
+    top: 0;
+    left: 50%;
+    margin-left: -1000px;
+    overflow: hidden;
+}
+
+#grow .growth_operate>div:first-of-type,
+.ecofriendly>div:first-of-type,
+.human {
+    overflow: hidden;
+    margin: 50px auto 39px;
+    width: 1200px;
+}
+
+#grow .growth_operate h4,
+.fund h4,
+.good_deal h4,
+.human h4,
+.family h4 {
+    float: left;
+    width: 20%;
+    color: black;
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+
+#grow .growth_operate>div>div,
+.fund>div,
+.good_deal ul,
+.human>div,
+.family>div {
+    width: 80%;
+    float: left;
+    padding: 10px 0;
+}
+
+#grow .growth_operate>div>div>p {
+    font-size: 18px;
+    font-weight: 300;
+    padding-top: 20px;
+    margin: 0 1%;
+    clear: both;
+    text-align: justify;
+}
+
+#grow .growth_operate>div>div>img {
+    float: left;
+    width: 48%;
+    margin: 1%;
+}
+
+#grow .main_task {
+    margin-top: 50px;
+}
+
+#grow .main_task p {
+    font-weight: 500;
+    font-size: 22px;
+    color: black;
+    padding-bottom: 10px;
+}
+
+#grow .main_task li {
+    margin: 2% 1%;
+    font-size: 18px;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+    font-weight: 300;
+    line-height: 60px;
+    padding-left: 20px;
+}
+
+#grow .fund {
+    margin: 70px 0;
+    overflow: hidden;
+}
+
+#grow .fund>div>p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+#grow .fund table {
+    margin: 30px 1% 0;
+    font-size: 18px;
+    width: 98%;
+    float: left;
+    text-align: center;
+}
+
+#grow .fund thead {
+    background-color: #f8f8f8;
+    line-height: 60px;
+}
+
+#grow .fund thead th {
+    font-weight: 500;
+    border: 1px solid #ccc;
+}
+
+#grow .fund tbody {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#grow .fund tbody td {
+    border: 1px solid #ccc;
+    padding: 20px 10px;
+}
+
+#grow .good_deal {
+    overflow: hidden;
+}
+
+#grow .good_deal ul {
+    overflow: hidden;
+}
+
+#grow .good_deal li {
+    float: left;
+    width: 48%;
+    margin: 1%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+#grow .good_deal li img {
+    width: 20%;
+    display: block;
+    margin: 30px auto;
+}
+
+#grow .good_deal dl {
+    margin-top: 20px;
+}
+
+#grow .good_deal dt {
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 10px;
+}
+
+#grow .good_deal dd {
+    font-weight: 300;
+}
+
+#value>div:first-of-type {
+    background: url(../images/content3/value.jpg);
+}
+
+#value .valueinfo>div:first-of-type>p:nth-of-type(2),
+.growinfo>div:first-of-type>p:nth-of-type(2) {
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 300;
+}
+
+#value .valueinfo>div:first-of-type>p:nth-of-type(3),
+.growinfo>div:first-of-type>p:nth-of-type(3) {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#value .human_list {
+    margin-bottom: 70px;
+}
+
+#value .human_list li {
+    width: 98%;
+    margin: 1% 1% 2%;
+    background-color: white;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.05);
+    padding: 20px 30px;
+    box-sizing: border-box;
+}
+
+#value .human_list dt {
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+#value .human_list dd {
+    font-weight: 300;
+}
+
+#value .human table {
+    width: 98%;
+    margin: 1%;
+    background-color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+#value .human table caption {
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+#value .human table .fl_left {
+    font-size: 22px;
+    font-weight: 500;
+    color: black;
+}
+
+#value .human table .fl_right {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+#value .human table th {
+    color: black;
+    font-weight: 500;
+    border: 1px solid #ccc;
+    line-height: 50px;
+}
+
+#value .human table td {
+    border: 1px solid #ccc;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 40px;
+}
+
+#value .human table td[rowspan="2"] {
+    line-height: 25px;
+    font-weight: 400;
+}
+
+#value .family {
+    margin: 60px 0 200px;
+    overflow: hidden;
+}
+
+#value .family p {
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+#value .family ul {
+    overflow: hidden;
+}
+
+#value .family li {
+    width: 48%;
+    margin: 1%;
+    float: left;
+    background-color: #f8f8f8;
+}
+
+#value .family img {
+    display: block;
+    width: 20%;
+    margin: 30px auto;
+}
+
+#value .family dt {
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    line-height: 60px;
+    margin: 20px;
+    background-color: #d20820b4;
+    position: relative;
+}
+
+#value .family dd {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 50px;
+    background-color: white;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.05);
+    margin: 20px;
+    padding-left: 20px;
+    text-align: center;
+}

@@ -1,0 +1,56 @@
+#content .info {
+    margin-bottom: 40px;
+}
+
+#content .info h3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    line-height: 80px;
+}
+
+#content .info p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+#content .info p span {
+    font-weight: 500;
+}
+
+#content .detail dl {
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+#content .detail dt {
+    font-weight: 500;
+    font-size: 22px;
+    color: black;
+    float: left;
+    width: 40%;
+    padding-bottom: 60px;
+}
+
+#content .detail dd {
+    font-weight: 300;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+#content dl:first-of-type dd:last-of-type {
+    font-weight: 400;
+}
+
+#content .detail dd span {
+    font-weight: 500;
+}
+
+section {
+    margin: 50px 0 120px;
+}
+
+#content .map {
+    width: 100%;
+    height: 330px;
+}

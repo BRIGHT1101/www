@@ -1,0 +1,65 @@
+.visual {
+  background-image: url(../images/sub4/content2/visual.jpg);
+}
+
+#content .content_area>ul img {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
+#content .content_area>ul {
+  overflow: hidden;
+  margin: 40px auto;
+  width: 95%;
+}
+
+#content .content_area>ul li {
+  float: left;
+  width: 33.33%;
+}
+
+#content .content_area>ul li a {
+  display: block;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+#content .content_area>ul li:nth-of-type(1) a {
+  padding: 12px 10px 8px;
+  background-color: black;
+}
+
+#content .sns ul {
+  overflow: hidden;
+  width: 91%;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+#content .sns li {
+  float: left;
+  width: 50%;
+}
+
+#content .sns li img {
+  width: 95%;
+  margin: 0 auto;
+  display: block;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+#content .sns dt {
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  margin: 10px 0;
+}
+
+#content .sns dd {
+  text-align: justify;
+  width: 90%;
+  margin: 0 auto;
+  height: 80px;
+}

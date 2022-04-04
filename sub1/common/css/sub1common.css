@@ -1,0 +1,115 @@
+/* sub1 common - visual / subnav / title_area */
+
+.visual {
+    width: 2000px;
+    position: relative;
+    top: 0;
+    left: 50%;
+    margin-left: -1000px;
+}
+
+.visual>div {
+    color: black;
+    width: 1200px;
+    height: 100%;
+    margin-left: -600px;
+    position: absolute;
+    left: 50%;
+    top: 0;
+}
+
+.visual>div div {
+    font-size: 40px;
+    font-weight: 500;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.visual h3 {
+    float: left;
+    font-weight: 500;
+}
+
+.visual span {
+    margin-left: 10px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+.sub_menu {
+    border-bottom: 1px solid #ccc;
+    font-size: 18px;
+}
+
+.sub_menu ul {
+    overflow: hidden;
+    width: 700px;
+    margin: auto;
+}
+
+.sub_menu li {
+    width: 25%;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+
+.sub_menu li:not(.current):hover a {
+    border-bottom: 2px solid #d2081e;
+    font-weight: 500;
+    color: #d2081e;
+}
+
+.sub_menu li:not(:last-of-type)::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 26.5px;
+    right: 0;
+    width: 1px;
+    height: 15px;
+    background-color: #ccc;
+}
+
+.sub_menu li a {
+    display: block;
+    line-height: 65px;
+}
+
+.sub_menu .current a {
+    border-bottom: 2px solid #d2081e;
+    font-weight: 500;
+    color: #d2081e;
+}
+
+#content {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#content .title_area {
+    position: relative;
+    overflow: hidden;
+    color: black;
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+#content .line_map {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    color: #666;
+    font-size: 14px;
+}
+
+#content .title_area h2 {
+    margin: 120px 0 35px 0;
+    font-size: 45px;
+}
+
+#content .title_area p {
+    font-size: 24px;
+}
