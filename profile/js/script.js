@@ -2,6 +2,7 @@ const navul = document.querySelector('.navul');
 const section = document.querySelectorAll('section');
 const ullist = navul.children;
 const deg = [
+	'eleven',
 	'zero',
 	'one',
 	'two',
@@ -15,6 +16,7 @@ const deg = [
 	'ten',
 	'eleven',
 	'twelve',
+	'one',
 ];
 
 document.addEventListener('scroll', e => {
@@ -25,7 +27,7 @@ document.addEventListener('scroll', e => {
 		) {
 			for (let i = 0; i < ullist.length; i++) {
 				ullist[i].className = '';
-				ullist[i].classList.add(deg[6 - index + i]);
+				ullist[i].classList.add(deg[7 - index + i]);
 			}
 		}
 	});
@@ -37,7 +39,7 @@ $('section').on('mousewheel', function (event, delta) {
 			var prev = $(this).prev().offset().top;
 			$('html,body').stop().animate({ scrollTop: prev }, 1000);
 			return false;
-		} else if (delta < 0 && $(this).index() != 6) {
+		} else if (delta < 0 && $(this).index() != 7) {
 			var next = $(this).next().offset().top;
 			$('html,body').stop().animate({ scrollTop: next }, 1000);
 			return false;

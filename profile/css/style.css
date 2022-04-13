@@ -479,7 +479,8 @@ section {
 #mobile,
 #responsive,
 #bootstrap,
-#wordpress {
+#wordpress,
+#react {
   display: flex;
   justify-content: space-around;
   align-items: center;
